@@ -2,12 +2,13 @@
     <li class="col s6">
         <div class="card">
             <div class="card-content">
-                <input type="text" value="{{name}}" name="todoItem">
+                <input type="text" value="{{name}}" name="todoItem" class="{{ checked }}">
             </div>
             <div class="card-action">
                 {{#if activeUser }}
                 <a class="delete-todo waves-effect waves-light btn red"><i class="large material-icons">delete</i></a>
                 {{/if}}
+                <button class="done waves-effect waves-light btn {{#if checked}}grey{{else}}pink{{/if}}"><i class="large material-icons">{{#if checked }}close{{ else }}done{{/if }}</i></button>
                 <button type="button" class="plus waves-effect waves-light btn green"><i class="large material-icons">thumb_up</i></button>
                 <button type="button" class="minus waves-effect waves-light btn orange"><i class="large material-icons">thumb_down</i></button>
                 <button class="waves-effect waves-light btn blue">NOTE : {{ note }}</button>

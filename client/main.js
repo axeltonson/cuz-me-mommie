@@ -1,6 +1,5 @@
 import {Template} from 'meteor/templating'
 import {Accounts} from 'meteor/accounts-base'
-import {ReactiveDict} from 'meteor/reactive-dict'
 import './main.html'
 
 Accounts.ui.config({
@@ -23,6 +22,14 @@ Template.todoItem.helpers({
         return false
       }
     }
+  },
+  'checked': function () {
+    var isCompleted = this.completed;
+    if (isCompleted) {
+      return "checked";
+    } else {
+      return "";
+    }
   }
 });
 
@@ -39,7 +46,7 @@ Template.addTodo.events({
       owner: Meteor.userId(),
       username: Meteor.user().username
     });
-    todo.val('')
+    todo.val('');
     todo.blur()
   }
 });
@@ -71,10 +78,14 @@ Template.todoItem.events({
       Todos.update({_id: documentId}, {$set: {name: todoItem}})
     }
   },
-  'keydown [name=todoItem]': function () {
-    console.log("You're holding down a key on your keyboard.")
-  },
-  'keypress [name=todoItem]': function () {
-    console.log("You just pressed one of the keys on your keyboard.")
+  'click button.done': function () {
+    Todos.find().fetch();
+    var documentId = this._id;
+    var isCompleted = this.completed;
+    if (isCompleted) {
+      Todos.update({_id: documentId}, {$set: {completed: false}});
+    } else {
+      Todos.update({_id: documentId}, {$set: {completed: true}});
+    }
   }
 });

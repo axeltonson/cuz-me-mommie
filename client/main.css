@@ -1,6 +1,9 @@
 body {
     background: #FAFAFA;
 }
+.checked {
+    text-decoration: line-through;
+}
 
 input:not([type]):focus:not([readonly]),
 input[type=text]:focus:not([readonly]),
