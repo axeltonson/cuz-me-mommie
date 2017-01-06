@@ -1,0 +1,18 @@
+<template name="todoItem">
+    <li class="col s6">
+        <div class="card">
+            <div class="card-content">
+                <input type="text" value="{{name}}" name="todoItem">
+            </div>
+            <div class="card-action">
+                {{#if activeUser }}
+                <a class="delete-todo waves-effect waves-light btn red"><i class="large material-icons">delete</i></a>
+                {{/if}}
+                <button type="button" class="plus waves-effect waves-light btn green"><i class="large material-icons">thumb_up</i></button>
+                <button type="button" class="minus waves-effect waves-light btn orange"><i class="large material-icons">thumb_down</i></button>
+                <button class="waves-effect waves-light btn blue">NOTE : {{ note }}</button>
+                <span class="text"> - Proposée par : <strong>{{ username }}</strong></span>
+            </div>
+        </div>
+    </li>
+</template>

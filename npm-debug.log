@@ -1,0 +1,2710 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\Gorky Paco\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.2_3\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe',
+1 verbose cli   'C:\\Users\\Gorky Paco\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.2_3\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'bcrypt' ]
+2 info using npm@3.10.9
+3 info using node@v4.6.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bcrypt
+8 silly fetchNamedPackageData bcrypt
+9 silly mapToRegistry name bcrypt
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bcrypt',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bcrypt',
+12 silly mapToRegistry   name: 'bcrypt',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+14 verbose request uri https://registry.npmjs.org/bcrypt
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 15:29:05
+17 verbose request id fa5a3890001d060a
+18 verbose etag W/"586833ed-16d17"
+19 verbose lastModified Sat, 31 Dec 2016 22:40:45 GMT
+20 http request GET https://registry.npmjs.org/bcrypt
+21 http 304 https://registry.npmjs.org/bcrypt
+22 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"586833ed-16d17"',
+22 verbose headers   age: '235',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-lhr6339-LHR',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '2',
+22 verbose headers   'x-timer': 'S1483712946.277011,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"586833ed-16d17"',
+23 silly get     age: '235',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-lhr6339-LHR',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '2',
+23 silly get     'x-timer': 'S1483712946.277011,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/bcrypt from cache
+25 verbose get saving bcrypt to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\bcrypt\.cache.json
+26 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule bcrypt@1.0.2 checking installable status
+40 silly cache add args [ 'bcrypt', null ]
+41 verbose cache add spec bcrypt
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'bcrypt',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'bcrypt',
+42 silly cache add   name: 'bcrypt',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed bcrypt@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for bcrypt
+45 info addNameTag [ 'bcrypt', 'latest' ]
+46 silly mapToRegistry name bcrypt
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'bcrypt',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'bcrypt',
+49 silly mapToRegistry   name: 'bcrypt',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+51 verbose addNameTag registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+52 verbose get https://registry.npmjs.org/bcrypt not expired, no request
+53 silly addNameTag next cb for bcrypt with tag latest
+54 silly addNamed bcrypt@1.0.2
+55 verbose addNamed "1.0.2" is a plain semver version for bcrypt
+56 silly cache afterAdd bcrypt@1.0.2
+57 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\bcrypt\1.0.2\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\bcrypt\1.0.2\package\package.json written
+60 silly fetchNamedPackageData bindings
+61 silly mapToRegistry name bindings
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'bindings',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'bindings',
+64 silly mapToRegistry   name: 'bindings',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/bindings
+66 silly fetchNamedPackageData node-pre-gyp
+67 silly mapToRegistry name node-pre-gyp
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'node-pre-gyp',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'node-pre-gyp',
+70 silly mapToRegistry   name: 'node-pre-gyp',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/node-pre-gyp
+72 verbose request uri https://registry.npmjs.org/bindings
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 15:29:05
+75 verbose etag W/"580645d3-46f7"
+76 verbose lastModified Tue, 18 Oct 2016 15:54:59 GMT
+77 http request GET https://registry.npmjs.org/bindings
+78 verbose request uri https://registry.npmjs.org/node-pre-gyp
+79 verbose request no auth needed
+80 info attempt registry request try #1 at 15:29:05
+81 verbose etag W/"583dfb8e-26da7"
+82 verbose lastModified Tue, 29 Nov 2016 22:05:02 GMT
+83 http request GET https://registry.npmjs.org/node-pre-gyp
+84 http 304 https://registry.npmjs.org/bindings
+85 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   etag: 'W/"580645d3-46f7"',
+85 verbose headers   age: '227',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-lhr6339-LHR',
+85 verbose headers   'x-cache': 'HIT',
+85 verbose headers   'x-cache-hits': '3',
+85 verbose headers   'x-timer': 'S1483712946.473105,VS0,VE0',
+85 verbose headers   vary: 'Accept-Encoding' }
+86 silly get cb [ 304,
+86 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     etag: 'W/"580645d3-46f7"',
+86 silly get     age: '227',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-lhr6339-LHR',
+86 silly get     'x-cache': 'HIT',
+86 silly get     'x-cache-hits': '3',
+86 silly get     'x-timer': 'S1483712946.473105,VS0,VE0',
+86 silly get     vary: 'Accept-Encoding' } ]
+87 verbose etag https://registry.npmjs.org/bindings from cache
+88 verbose get saving bindings to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\bindings\.cache.json
+89 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+90 silly resolveWithNewModule bindings@1.2.1 checking installable status
+91 silly cache add args [ 'bindings@1.2.1', null ]
+92 verbose cache add spec bindings@1.2.1
+93 silly cache add parsed spec Result {
+93 silly cache add   raw: 'bindings@1.2.1',
+93 silly cache add   scope: null,
+93 silly cache add   escapedName: 'bindings',
+93 silly cache add   name: 'bindings',
+93 silly cache add   rawSpec: '1.2.1',
+93 silly cache add   spec: '1.2.1',
+93 silly cache add   type: 'version' }
+94 silly addNamed bindings@1.2.1
+95 verbose addNamed "1.2.1" is a plain semver version for bindings
+96 silly mapToRegistry name bindings
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry data Result {
+99 silly mapToRegistry   raw: 'bindings',
+99 silly mapToRegistry   scope: null,
+99 silly mapToRegistry   escapedName: 'bindings',
+99 silly mapToRegistry   name: 'bindings',
+99 silly mapToRegistry   rawSpec: '',
+99 silly mapToRegistry   spec: 'latest',
+99 silly mapToRegistry   type: 'tag' }
+100 silly mapToRegistry uri https://registry.npmjs.org/bindings
+101 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+102 verbose get https://registry.npmjs.org/bindings not expired, no request
+103 silly cache afterAdd bindings@1.2.1
+104 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\bindings\1.2.1\package\package.json not in flight; writing
+105 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+106 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\bindings\1.2.1\package\package.json written
+107 http 304 https://registry.npmjs.org/node-pre-gyp
+108 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+108 verbose headers   via: '1.1 varnish',
+108 verbose headers   'cache-control': 'max-age=300',
+108 verbose headers   etag: 'W/"583dfb8e-26da7"',
+108 verbose headers   age: '273',
+108 verbose headers   connection: 'keep-alive',
+108 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+108 verbose headers   'x-cache': 'HIT',
+108 verbose headers   'x-cache-hits': '3',
+108 verbose headers   'x-timer': 'S1483712946.496916,VS0,VE0',
+108 verbose headers   vary: 'Accept-Encoding' }
+109 silly get cb [ 304,
+109 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+109 silly get     via: '1.1 varnish',
+109 silly get     'cache-control': 'max-age=300',
+109 silly get     etag: 'W/"583dfb8e-26da7"',
+109 silly get     age: '273',
+109 silly get     connection: 'keep-alive',
+109 silly get     'x-served-by': 'cache-lhr6325-LHR',
+109 silly get     'x-cache': 'HIT',
+109 silly get     'x-cache-hits': '3',
+109 silly get     'x-timer': 'S1483712946.496916,VS0,VE0',
+109 silly get     vary: 'Accept-Encoding' } ]
+110 verbose etag https://registry.npmjs.org/node-pre-gyp from cache
+111 verbose get saving node-pre-gyp to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\node-pre-gyp\.cache.json
+112 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+113 silly resolveWithNewModule node-pre-gyp@0.6.32 checking installable status
+114 silly cache add args [ 'node-pre-gyp@0.6.32', null ]
+115 verbose cache add spec node-pre-gyp@0.6.32
+116 silly cache add parsed spec Result {
+116 silly cache add   raw: 'node-pre-gyp@0.6.32',
+116 silly cache add   scope: null,
+116 silly cache add   escapedName: 'node-pre-gyp',
+116 silly cache add   name: 'node-pre-gyp',
+116 silly cache add   rawSpec: '0.6.32',
+116 silly cache add   spec: '0.6.32',
+116 silly cache add   type: 'version' }
+117 silly addNamed node-pre-gyp@0.6.32
+118 verbose addNamed "0.6.32" is a plain semver version for node-pre-gyp
+119 silly mapToRegistry name node-pre-gyp
+120 silly mapToRegistry using default registry
+121 silly mapToRegistry registry https://registry.npmjs.org/
+122 silly mapToRegistry data Result {
+122 silly mapToRegistry   raw: 'node-pre-gyp',
+122 silly mapToRegistry   scope: null,
+122 silly mapToRegistry   escapedName: 'node-pre-gyp',
+122 silly mapToRegistry   name: 'node-pre-gyp',
+122 silly mapToRegistry   rawSpec: '',
+122 silly mapToRegistry   spec: 'latest',
+122 silly mapToRegistry   type: 'tag' }
+123 silly mapToRegistry uri https://registry.npmjs.org/node-pre-gyp
+124 verbose addNameVersion registry:https://registry.npmjs.org/node-pre-gyp not in flight; fetching
+125 verbose get https://registry.npmjs.org/node-pre-gyp not expired, no request
+126 silly cache afterAdd node-pre-gyp@0.6.32
+127 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\node-pre-gyp\0.6.32\package\package.json not in flight; writing
+128 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+129 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\node-pre-gyp\0.6.32\package\package.json written
+130 silly fetchNamedPackageData rc
+131 silly mapToRegistry name rc
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry data Result {
+134 silly mapToRegistry   raw: 'rc',
+134 silly mapToRegistry   scope: null,
+134 silly mapToRegistry   escapedName: 'rc',
+134 silly mapToRegistry   name: 'rc',
+134 silly mapToRegistry   rawSpec: '',
+134 silly mapToRegistry   spec: 'latest',
+134 silly mapToRegistry   type: 'tag' }
+135 silly mapToRegistry uri https://registry.npmjs.org/rc
+136 silly fetchNamedPackageData tar-pack
+137 silly mapToRegistry name tar-pack
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry data Result {
+140 silly mapToRegistry   raw: 'tar-pack',
+140 silly mapToRegistry   scope: null,
+140 silly mapToRegistry   escapedName: 'tar-pack',
+140 silly mapToRegistry   name: 'tar-pack',
+140 silly mapToRegistry   rawSpec: '',
+140 silly mapToRegistry   spec: 'latest',
+140 silly mapToRegistry   type: 'tag' }
+141 silly mapToRegistry uri https://registry.npmjs.org/tar-pack
+142 verbose request uri https://registry.npmjs.org/rc
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 15:29:05
+145 verbose etag W/"58534bd6-ad0e"
+146 verbose lastModified Fri, 16 Dec 2016 02:05:10 GMT
+147 http request GET https://registry.npmjs.org/rc
+148 verbose request uri https://registry.npmjs.org/tar-pack
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 15:29:05
+151 verbose etag W/"58516b0d-4c6b"
+152 verbose lastModified Wed, 14 Dec 2016 15:53:49 GMT
+153 http request GET https://registry.npmjs.org/tar-pack
+154 http 304 https://registry.npmjs.org/rc
+155 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+155 verbose headers   via: '1.1 varnish',
+155 verbose headers   'cache-control': 'max-age=300',
+155 verbose headers   etag: 'W/"58534bd6-ad0e"',
+155 verbose headers   age: '266',
+155 verbose headers   connection: 'keep-alive',
+155 verbose headers   'x-served-by': 'cache-lhr6339-LHR',
+155 verbose headers   'x-cache': 'HIT',
+155 verbose headers   'x-cache-hits': '8',
+155 verbose headers   'x-timer': 'S1483712946.565642,VS0,VE0',
+155 verbose headers   vary: 'Accept-Encoding' }
+156 silly get cb [ 304,
+156 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+156 silly get     via: '1.1 varnish',
+156 silly get     'cache-control': 'max-age=300',
+156 silly get     etag: 'W/"58534bd6-ad0e"',
+156 silly get     age: '266',
+156 silly get     connection: 'keep-alive',
+156 silly get     'x-served-by': 'cache-lhr6339-LHR',
+156 silly get     'x-cache': 'HIT',
+156 silly get     'x-cache-hits': '8',
+156 silly get     'x-timer': 'S1483712946.565642,VS0,VE0',
+156 silly get     vary: 'Accept-Encoding' } ]
+157 verbose etag https://registry.npmjs.org/rc from cache
+158 verbose get saving rc to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\rc\.cache.json
+159 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+160 http 304 https://registry.npmjs.org/tar-pack
+161 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+161 verbose headers   via: '1.1 varnish',
+161 verbose headers   'cache-control': 'max-age=300',
+161 verbose headers   etag: 'W/"58516b0d-4c6b"',
+161 verbose headers   age: '122',
+161 verbose headers   connection: 'keep-alive',
+161 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+161 verbose headers   'x-cache': 'HIT',
+161 verbose headers   'x-cache-hits': '1',
+161 verbose headers   'x-timer': 'S1483712946.566232,VS0,VE0',
+161 verbose headers   vary: 'Accept-Encoding' }
+162 silly get cb [ 304,
+162 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+162 silly get     via: '1.1 varnish',
+162 silly get     'cache-control': 'max-age=300',
+162 silly get     etag: 'W/"58516b0d-4c6b"',
+162 silly get     age: '122',
+162 silly get     connection: 'keep-alive',
+162 silly get     'x-served-by': 'cache-lhr6325-LHR',
+162 silly get     'x-cache': 'HIT',
+162 silly get     'x-cache-hits': '1',
+162 silly get     'x-timer': 'S1483712946.566232,VS0,VE0',
+162 silly get     vary: 'Accept-Encoding' } ]
+163 verbose etag https://registry.npmjs.org/tar-pack from cache
+164 verbose get saving tar-pack to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\tar-pack\.cache.json
+165 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+166 silly resolveWithNewModule rc@1.1.6 checking installable status
+167 silly cache add args [ 'rc@~1.1.6', null ]
+168 verbose cache add spec rc@~1.1.6
+169 silly cache add parsed spec Result {
+169 silly cache add   raw: 'rc@~1.1.6',
+169 silly cache add   scope: null,
+169 silly cache add   escapedName: 'rc',
+169 silly cache add   name: 'rc',
+169 silly cache add   rawSpec: '~1.1.6',
+169 silly cache add   spec: '>=1.1.6 <1.2.0',
+169 silly cache add   type: 'range' }
+170 silly addNamed rc@>=1.1.6 <1.2.0
+171 verbose addNamed ">=1.1.6 <1.2.0" is a valid semver range for rc
+172 silly addNameRange { name: 'rc', range: '>=1.1.6 <1.2.0', hasData: false }
+173 silly mapToRegistry name rc
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry data Result {
+176 silly mapToRegistry   raw: 'rc',
+176 silly mapToRegistry   scope: null,
+176 silly mapToRegistry   escapedName: 'rc',
+176 silly mapToRegistry   name: 'rc',
+176 silly mapToRegistry   rawSpec: '',
+176 silly mapToRegistry   spec: 'latest',
+176 silly mapToRegistry   type: 'tag' }
+177 silly mapToRegistry uri https://registry.npmjs.org/rc
+178 verbose addNameRange registry:https://registry.npmjs.org/rc not in flight; fetching
+179 silly resolveWithNewModule tar-pack@3.3.0 checking installable status
+180 silly cache add args [ 'tar-pack@~3.3.0', null ]
+181 verbose cache add spec tar-pack@~3.3.0
+182 silly cache add parsed spec Result {
+182 silly cache add   raw: 'tar-pack@~3.3.0',
+182 silly cache add   scope: null,
+182 silly cache add   escapedName: 'tar-pack',
+182 silly cache add   name: 'tar-pack',
+182 silly cache add   rawSpec: '~3.3.0',
+182 silly cache add   spec: '>=3.3.0 <3.4.0',
+182 silly cache add   type: 'range' }
+183 silly addNamed tar-pack@>=3.3.0 <3.4.0
+184 verbose addNamed ">=3.3.0 <3.4.0" is a valid semver range for tar-pack
+185 silly addNameRange { name: 'tar-pack', range: '>=3.3.0 <3.4.0', hasData: false }
+186 silly mapToRegistry name tar-pack
+187 silly mapToRegistry using default registry
+188 silly mapToRegistry registry https://registry.npmjs.org/
+189 silly mapToRegistry data Result {
+189 silly mapToRegistry   raw: 'tar-pack',
+189 silly mapToRegistry   scope: null,
+189 silly mapToRegistry   escapedName: 'tar-pack',
+189 silly mapToRegistry   name: 'tar-pack',
+189 silly mapToRegistry   rawSpec: '',
+189 silly mapToRegistry   spec: 'latest',
+189 silly mapToRegistry   type: 'tag' }
+190 silly mapToRegistry uri https://registry.npmjs.org/tar-pack
+191 verbose addNameRange registry:https://registry.npmjs.org/tar-pack not in flight; fetching
+192 verbose get https://registry.npmjs.org/rc not expired, no request
+193 silly addNameRange number 2 { name: 'rc', range: '>=1.1.6 <1.2.0', hasData: true }
+194 silly addNameRange versions [ 'rc',
+194 silly addNameRange   [ '0.0.1',
+194 silly addNameRange     '0.0.2',
+194 silly addNameRange     '0.0.3',
+194 silly addNameRange     '0.0.4',
+194 silly addNameRange     '0.0.5',
+194 silly addNameRange     '0.0.6',
+194 silly addNameRange     '0.0.7',
+194 silly addNameRange     '0.0.8',
+194 silly addNameRange     '0.1.0',
+194 silly addNameRange     '0.1.1',
+194 silly addNameRange     '0.1.2',
+194 silly addNameRange     '0.1.3',
+194 silly addNameRange     '0.2.0',
+194 silly addNameRange     '0.3.0',
+194 silly addNameRange     '0.3.1',
+194 silly addNameRange     '0.3.2',
+194 silly addNameRange     '0.3.3',
+194 silly addNameRange     '0.3.4',
+194 silly addNameRange     '0.3.5',
+194 silly addNameRange     '0.4.0',
+194 silly addNameRange     '0.5.0',
+194 silly addNameRange     '0.5.1',
+194 silly addNameRange     '0.5.2',
+194 silly addNameRange     '0.5.3',
+194 silly addNameRange     '0.5.4',
+194 silly addNameRange     '0.5.5',
+194 silly addNameRange     '0.6.0',
+194 silly addNameRange     '1.0.0',
+194 silly addNameRange     '1.0.1',
+194 silly addNameRange     '1.0.2',
+194 silly addNameRange     '1.0.3',
+194 silly addNameRange     '1.1.0',
+194 silly addNameRange     '1.1.1',
+194 silly addNameRange     '1.1.2',
+194 silly addNameRange     '1.1.3',
+194 silly addNameRange     '1.1.4',
+194 silly addNameRange     '1.1.5',
+194 silly addNameRange     '1.1.6' ] ]
+195 silly addNamed rc@1.1.6
+196 verbose addNamed "1.1.6" is a plain semver version for rc
+197 verbose get https://registry.npmjs.org/tar-pack not expired, no request
+198 silly addNameRange number 2 { name: 'tar-pack', range: '>=3.3.0 <3.4.0', hasData: true }
+199 silly addNameRange versions [ 'tar-pack',
+199 silly addNameRange   [ '1.0.0',
+199 silly addNameRange     '2.0.0',
+199 silly addNameRange     '2.0.1',
+199 silly addNameRange     '3.0.0',
+199 silly addNameRange     '3.1.0',
+199 silly addNameRange     '3.1.1',
+199 silly addNameRange     '3.1.2',
+199 silly addNameRange     '3.1.3',
+199 silly addNameRange     '3.1.4',
+199 silly addNameRange     '3.2.0',
+199 silly addNameRange     '3.3.0',
+199 silly addNameRange     '3.4.0' ] ]
+200 silly addNamed tar-pack@3.3.0
+201 verbose addNamed "3.3.0" is a plain semver version for tar-pack
+202 silly cache afterAdd rc@1.1.6
+203 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\rc\1.1.6\package\package.json not in flight; writing
+204 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+205 silly cache afterAdd tar-pack@3.3.0
+206 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\tar-pack\3.3.0\package\package.json not in flight; writing
+207 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+208 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\rc\1.1.6\package\package.json written
+209 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\tar-pack\3.3.0\package\package.json written
+210 silly fetchNamedPackageData deep-extend
+211 silly mapToRegistry name deep-extend
+212 silly mapToRegistry using default registry
+213 silly mapToRegistry registry https://registry.npmjs.org/
+214 silly mapToRegistry data Result {
+214 silly mapToRegistry   raw: 'deep-extend',
+214 silly mapToRegistry   scope: null,
+214 silly mapToRegistry   escapedName: 'deep-extend',
+214 silly mapToRegistry   name: 'deep-extend',
+214 silly mapToRegistry   rawSpec: '',
+214 silly mapToRegistry   spec: 'latest',
+214 silly mapToRegistry   type: 'tag' }
+215 silly mapToRegistry uri https://registry.npmjs.org/deep-extend
+216 silly fetchNamedPackageData ini
+217 silly mapToRegistry name ini
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry data Result {
+220 silly mapToRegistry   raw: 'ini',
+220 silly mapToRegistry   scope: null,
+220 silly mapToRegistry   escapedName: 'ini',
+220 silly mapToRegistry   name: 'ini',
+220 silly mapToRegistry   rawSpec: '',
+220 silly mapToRegistry   spec: 'latest',
+220 silly mapToRegistry   type: 'tag' }
+221 silly mapToRegistry uri https://registry.npmjs.org/ini
+222 silly fetchNamedPackageData strip-json-comments
+223 silly mapToRegistry name strip-json-comments
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry data Result {
+226 silly mapToRegistry   raw: 'strip-json-comments',
+226 silly mapToRegistry   scope: null,
+226 silly mapToRegistry   escapedName: 'strip-json-comments',
+226 silly mapToRegistry   name: 'strip-json-comments',
+226 silly mapToRegistry   rawSpec: '',
+226 silly mapToRegistry   spec: 'latest',
+226 silly mapToRegistry   type: 'tag' }
+227 silly mapToRegistry uri https://registry.npmjs.org/strip-json-comments
+228 verbose request uri https://registry.npmjs.org/deep-extend
+229 verbose request no auth needed
+230 info attempt registry request try #1 at 15:29:05
+231 verbose etag W/"583d6fca-4cab"
+232 verbose lastModified Tue, 29 Nov 2016 12:08:42 GMT
+233 http request GET https://registry.npmjs.org/deep-extend
+234 verbose request uri https://registry.npmjs.org/strip-json-comments
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 15:29:05
+237 verbose etag W/"584e6ed4-44ad"
+238 verbose lastModified Mon, 12 Dec 2016 09:33:08 GMT
+239 http request GET https://registry.npmjs.org/strip-json-comments
+240 verbose request uri https://registry.npmjs.org/ini
+241 verbose request no auth needed
+242 info attempt registry request try #1 at 15:29:05
+243 verbose etag W/"5832c936-3c9d"
+244 verbose lastModified Mon, 21 Nov 2016 10:15:18 GMT
+245 http request GET https://registry.npmjs.org/ini
+246 http 304 https://registry.npmjs.org/strip-json-comments
+247 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+247 verbose headers   via: '1.1 varnish',
+247 verbose headers   'cache-control': 'max-age=300',
+247 verbose headers   etag: 'W/"584e6ed4-44ad"',
+247 verbose headers   age: '11',
+247 verbose headers   connection: 'keep-alive',
+247 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+247 verbose headers   'x-cache': 'HIT',
+247 verbose headers   'x-cache-hits': '2',
+247 verbose headers   'x-timer': 'S1483712946.627943,VS0,VE0',
+247 verbose headers   vary: 'Accept-Encoding' }
+248 silly get cb [ 304,
+248 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+248 silly get     via: '1.1 varnish',
+248 silly get     'cache-control': 'max-age=300',
+248 silly get     etag: 'W/"584e6ed4-44ad"',
+248 silly get     age: '11',
+248 silly get     connection: 'keep-alive',
+248 silly get     'x-served-by': 'cache-lhr6325-LHR',
+248 silly get     'x-cache': 'HIT',
+248 silly get     'x-cache-hits': '2',
+248 silly get     'x-timer': 'S1483712946.627943,VS0,VE0',
+248 silly get     vary: 'Accept-Encoding' } ]
+249 verbose etag https://registry.npmjs.org/strip-json-comments from cache
+250 verbose get saving strip-json-comments to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\strip-json-comments\.cache.json
+251 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+252 http 304 https://registry.npmjs.org/deep-extend
+253 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+253 verbose headers   via: '1.1 varnish',
+253 verbose headers   'cache-control': 'max-age=300',
+253 verbose headers   etag: 'W/"583d6fca-4cab"',
+253 verbose headers   age: '41',
+253 verbose headers   connection: 'keep-alive',
+253 verbose headers   'x-served-by': 'cache-lhr6339-LHR',
+253 verbose headers   'x-cache': 'HIT',
+253 verbose headers   'x-cache-hits': '2',
+253 verbose headers   'x-timer': 'S1483712946.628325,VS0,VE0',
+253 verbose headers   vary: 'Accept-Encoding' }
+254 silly get cb [ 304,
+254 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+254 silly get     via: '1.1 varnish',
+254 silly get     'cache-control': 'max-age=300',
+254 silly get     etag: 'W/"583d6fca-4cab"',
+254 silly get     age: '41',
+254 silly get     connection: 'keep-alive',
+254 silly get     'x-served-by': 'cache-lhr6339-LHR',
+254 silly get     'x-cache': 'HIT',
+254 silly get     'x-cache-hits': '2',
+254 silly get     'x-timer': 'S1483712946.628325,VS0,VE0',
+254 silly get     vary: 'Accept-Encoding' } ]
+255 verbose etag https://registry.npmjs.org/deep-extend from cache
+256 verbose get saving deep-extend to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\deep-extend\.cache.json
+257 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+258 silly resolveWithNewModule strip-json-comments@1.0.4 checking installable status
+259 silly cache add args [ 'strip-json-comments@~1.0.4', null ]
+260 verbose cache add spec strip-json-comments@~1.0.4
+261 silly cache add parsed spec Result {
+261 silly cache add   raw: 'strip-json-comments@~1.0.4',
+261 silly cache add   scope: null,
+261 silly cache add   escapedName: 'strip-json-comments',
+261 silly cache add   name: 'strip-json-comments',
+261 silly cache add   rawSpec: '~1.0.4',
+261 silly cache add   spec: '>=1.0.4 <1.1.0',
+261 silly cache add   type: 'range' }
+262 silly addNamed strip-json-comments@>=1.0.4 <1.1.0
+263 verbose addNamed ">=1.0.4 <1.1.0" is a valid semver range for strip-json-comments
+264 silly addNameRange { name: 'strip-json-comments',
+264 silly addNameRange   range: '>=1.0.4 <1.1.0',
+264 silly addNameRange   hasData: false }
+265 silly mapToRegistry name strip-json-comments
+266 silly mapToRegistry using default registry
+267 silly mapToRegistry registry https://registry.npmjs.org/
+268 silly mapToRegistry data Result {
+268 silly mapToRegistry   raw: 'strip-json-comments',
+268 silly mapToRegistry   scope: null,
+268 silly mapToRegistry   escapedName: 'strip-json-comments',
+268 silly mapToRegistry   name: 'strip-json-comments',
+268 silly mapToRegistry   rawSpec: '',
+268 silly mapToRegistry   spec: 'latest',
+268 silly mapToRegistry   type: 'tag' }
+269 silly mapToRegistry uri https://registry.npmjs.org/strip-json-comments
+270 verbose addNameRange registry:https://registry.npmjs.org/strip-json-comments not in flight; fetching
+271 silly resolveWithNewModule deep-extend@0.4.1 checking installable status
+272 silly cache add args [ 'deep-extend@~0.4.0', null ]
+273 verbose cache add spec deep-extend@~0.4.0
+274 silly cache add parsed spec Result {
+274 silly cache add   raw: 'deep-extend@~0.4.0',
+274 silly cache add   scope: null,
+274 silly cache add   escapedName: 'deep-extend',
+274 silly cache add   name: 'deep-extend',
+274 silly cache add   rawSpec: '~0.4.0',
+274 silly cache add   spec: '>=0.4.0 <0.5.0',
+274 silly cache add   type: 'range' }
+275 silly addNamed deep-extend@>=0.4.0 <0.5.0
+276 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for deep-extend
+277 silly addNameRange { name: 'deep-extend', range: '>=0.4.0 <0.5.0', hasData: false }
+278 silly mapToRegistry name deep-extend
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry data Result {
+281 silly mapToRegistry   raw: 'deep-extend',
+281 silly mapToRegistry   scope: null,
+281 silly mapToRegistry   escapedName: 'deep-extend',
+281 silly mapToRegistry   name: 'deep-extend',
+281 silly mapToRegistry   rawSpec: '',
+281 silly mapToRegistry   spec: 'latest',
+281 silly mapToRegistry   type: 'tag' }
+282 silly mapToRegistry uri https://registry.npmjs.org/deep-extend
+283 verbose addNameRange registry:https://registry.npmjs.org/deep-extend not in flight; fetching
+284 verbose get https://registry.npmjs.org/strip-json-comments not expired, no request
+285 silly addNameRange number 2 { name: 'strip-json-comments',
+285 silly addNameRange   range: '>=1.0.4 <1.1.0',
+285 silly addNameRange   hasData: true }
+286 silly addNameRange versions [ 'strip-json-comments',
+286 silly addNameRange   [ '0.1.0',
+286 silly addNameRange     '0.1.1',
+286 silly addNameRange     '0.1.2',
+286 silly addNameRange     '0.1.3',
+286 silly addNameRange     '1.0.0',
+286 silly addNameRange     '1.0.1',
+286 silly addNameRange     '1.0.2',
+286 silly addNameRange     '1.0.3',
+286 silly addNameRange     '1.0.4',
+286 silly addNameRange     '2.0.0',
+286 silly addNameRange     '2.0.1' ] ]
+287 silly addNamed strip-json-comments@1.0.4
+288 verbose addNamed "1.0.4" is a plain semver version for strip-json-comments
+289 verbose get https://registry.npmjs.org/deep-extend not expired, no request
+290 silly addNameRange number 2 { name: 'deep-extend', range: '>=0.4.0 <0.5.0', hasData: true }
+291 silly addNameRange versions [ 'deep-extend',
+291 silly addNameRange   [ '0.2.0',
+291 silly addNameRange     '0.2.1',
+291 silly addNameRange     '0.2.2',
+291 silly addNameRange     '0.2.4',
+291 silly addNameRange     '0.2.5',
+291 silly addNameRange     '0.2.6',
+291 silly addNameRange     '0.2.7',
+291 silly addNameRange     '0.2.8',
+291 silly addNameRange     '0.2.9',
+291 silly addNameRange     '0.2.10',
+291 silly addNameRange     '0.2.11',
+291 silly addNameRange     '0.3.0',
+291 silly addNameRange     '0.3.1',
+291 silly addNameRange     '0.3.2',
+291 silly addNameRange     '0.3.3',
+291 silly addNameRange     '0.4.0',
+291 silly addNameRange     '0.4.1' ] ]
+292 silly addNamed deep-extend@0.4.1
+293 verbose addNamed "0.4.1" is a plain semver version for deep-extend
+294 silly cache afterAdd strip-json-comments@1.0.4
+295 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\strip-json-comments\1.0.4\package\package.json not in flight; writing
+296 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+297 silly cache afterAdd deep-extend@0.4.1
+298 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\deep-extend\0.4.1\package\package.json not in flight; writing
+299 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+300 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\strip-json-comments\1.0.4\package\package.json written
+301 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\deep-extend\0.4.1\package\package.json written
+302 http 304 https://registry.npmjs.org/ini
+303 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+303 verbose headers   via: '1.1 varnish',
+303 verbose headers   'cache-control': 'max-age=300',
+303 verbose headers   etag: 'W/"5832c936-3c9d"',
+303 verbose headers   age: '25',
+303 verbose headers   connection: 'keep-alive',
+303 verbose headers   'x-served-by': 'cache-lhr6344-LHR',
+303 verbose headers   'x-cache': 'HIT',
+303 verbose headers   'x-cache-hits': '2',
+303 verbose headers   'x-timer': 'S1483712946.658080,VS0,VE0',
+303 verbose headers   vary: 'Accept-Encoding' }
+304 silly get cb [ 304,
+304 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+304 silly get     via: '1.1 varnish',
+304 silly get     'cache-control': 'max-age=300',
+304 silly get     etag: 'W/"5832c936-3c9d"',
+304 silly get     age: '25',
+304 silly get     connection: 'keep-alive',
+304 silly get     'x-served-by': 'cache-lhr6344-LHR',
+304 silly get     'x-cache': 'HIT',
+304 silly get     'x-cache-hits': '2',
+304 silly get     'x-timer': 'S1483712946.658080,VS0,VE0',
+304 silly get     vary: 'Accept-Encoding' } ]
+305 verbose etag https://registry.npmjs.org/ini from cache
+306 verbose get saving ini to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\ini\.cache.json
+307 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+308 silly resolveWithNewModule ini@1.3.4 checking installable status
+309 silly cache add args [ 'ini@~1.3.0', null ]
+310 verbose cache add spec ini@~1.3.0
+311 silly cache add parsed spec Result {
+311 silly cache add   raw: 'ini@~1.3.0',
+311 silly cache add   scope: null,
+311 silly cache add   escapedName: 'ini',
+311 silly cache add   name: 'ini',
+311 silly cache add   rawSpec: '~1.3.0',
+311 silly cache add   spec: '>=1.3.0 <1.4.0',
+311 silly cache add   type: 'range' }
+312 silly addNamed ini@>=1.3.0 <1.4.0
+313 verbose addNamed ">=1.3.0 <1.4.0" is a valid semver range for ini
+314 silly addNameRange { name: 'ini', range: '>=1.3.0 <1.4.0', hasData: false }
+315 silly mapToRegistry name ini
+316 silly mapToRegistry using default registry
+317 silly mapToRegistry registry https://registry.npmjs.org/
+318 silly mapToRegistry data Result {
+318 silly mapToRegistry   raw: 'ini',
+318 silly mapToRegistry   scope: null,
+318 silly mapToRegistry   escapedName: 'ini',
+318 silly mapToRegistry   name: 'ini',
+318 silly mapToRegistry   rawSpec: '',
+318 silly mapToRegistry   spec: 'latest',
+318 silly mapToRegistry   type: 'tag' }
+319 silly mapToRegistry uri https://registry.npmjs.org/ini
+320 verbose addNameRange registry:https://registry.npmjs.org/ini not in flight; fetching
+321 verbose get https://registry.npmjs.org/ini not expired, no request
+322 silly addNameRange number 2 { name: 'ini', range: '>=1.3.0 <1.4.0', hasData: true }
+323 silly addNameRange versions [ 'ini',
+323 silly addNameRange   [ '1.0.0',
+323 silly addNameRange     '1.0.1',
+323 silly addNameRange     '1.0.2',
+323 silly addNameRange     '1.0.3',
+323 silly addNameRange     '1.0.4',
+323 silly addNameRange     '1.0.5',
+323 silly addNameRange     '1.1.0',
+323 silly addNameRange     '1.2.0',
+323 silly addNameRange     '1.2.1',
+323 silly addNameRange     '1.3.0',
+323 silly addNameRange     '1.3.1',
+323 silly addNameRange     '1.3.2',
+323 silly addNameRange     '1.3.3',
+323 silly addNameRange     '1.3.4' ] ]
+324 silly addNamed ini@1.3.4
+325 verbose addNamed "1.3.4" is a plain semver version for ini
+326 silly cache afterAdd ini@1.3.4
+327 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\ini\1.3.4\package\package.json not in flight; writing
+328 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+329 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\ini\1.3.4\package\package.json written
+330 silly fetchNamedPackageData debug
+331 silly mapToRegistry name debug
+332 silly mapToRegistry using default registry
+333 silly mapToRegistry registry https://registry.npmjs.org/
+334 silly mapToRegistry data Result {
+334 silly mapToRegistry   raw: 'debug',
+334 silly mapToRegistry   scope: null,
+334 silly mapToRegistry   escapedName: 'debug',
+334 silly mapToRegistry   name: 'debug',
+334 silly mapToRegistry   rawSpec: '',
+334 silly mapToRegistry   spec: 'latest',
+334 silly mapToRegistry   type: 'tag' }
+335 silly mapToRegistry uri https://registry.npmjs.org/debug
+336 silly fetchNamedPackageData fstream-ignore
+337 silly mapToRegistry name fstream-ignore
+338 silly mapToRegistry using default registry
+339 silly mapToRegistry registry https://registry.npmjs.org/
+340 silly mapToRegistry data Result {
+340 silly mapToRegistry   raw: 'fstream-ignore',
+340 silly mapToRegistry   scope: null,
+340 silly mapToRegistry   escapedName: 'fstream-ignore',
+340 silly mapToRegistry   name: 'fstream-ignore',
+340 silly mapToRegistry   rawSpec: '',
+340 silly mapToRegistry   spec: 'latest',
+340 silly mapToRegistry   type: 'tag' }
+341 silly mapToRegistry uri https://registry.npmjs.org/fstream-ignore
+342 silly fetchNamedPackageData once
+343 silly mapToRegistry name once
+344 silly mapToRegistry using default registry
+345 silly mapToRegistry registry https://registry.npmjs.org/
+346 silly mapToRegistry data Result {
+346 silly mapToRegistry   raw: 'once',
+346 silly mapToRegistry   scope: null,
+346 silly mapToRegistry   escapedName: 'once',
+346 silly mapToRegistry   name: 'once',
+346 silly mapToRegistry   rawSpec: '',
+346 silly mapToRegistry   spec: 'latest',
+346 silly mapToRegistry   type: 'tag' }
+347 silly mapToRegistry uri https://registry.npmjs.org/once
+348 silly fetchNamedPackageData readable-stream
+349 silly mapToRegistry name readable-stream
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry https://registry.npmjs.org/
+352 silly mapToRegistry data Result {
+352 silly mapToRegistry   raw: 'readable-stream',
+352 silly mapToRegistry   scope: null,
+352 silly mapToRegistry   escapedName: 'readable-stream',
+352 silly mapToRegistry   name: 'readable-stream',
+352 silly mapToRegistry   rawSpec: '',
+352 silly mapToRegistry   spec: 'latest',
+352 silly mapToRegistry   type: 'tag' }
+353 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+354 silly fetchNamedPackageData uid-number
+355 silly mapToRegistry name uid-number
+356 silly mapToRegistry using default registry
+357 silly mapToRegistry registry https://registry.npmjs.org/
+358 silly mapToRegistry data Result {
+358 silly mapToRegistry   raw: 'uid-number',
+358 silly mapToRegistry   scope: null,
+358 silly mapToRegistry   escapedName: 'uid-number',
+358 silly mapToRegistry   name: 'uid-number',
+358 silly mapToRegistry   rawSpec: '',
+358 silly mapToRegistry   spec: 'latest',
+358 silly mapToRegistry   type: 'tag' }
+359 silly mapToRegistry uri https://registry.npmjs.org/uid-number
+360 verbose request uri https://registry.npmjs.org/debug
+361 verbose request no auth needed
+362 info attempt registry request try #1 at 15:29:06
+363 verbose etag W/"586d3155-fc91"
+364 verbose lastModified Wed, 04 Jan 2017 17:31:01 GMT
+365 http request GET https://registry.npmjs.org/debug
+366 verbose request uri https://registry.npmjs.org/once
+367 verbose request no auth needed
+368 info attempt registry request try #1 at 15:29:06
+369 verbose etag W/"5865db24-25b5"
+370 verbose lastModified Fri, 30 Dec 2016 03:57:24 GMT
+371 http request GET https://registry.npmjs.org/once
+372 verbose request uri https://registry.npmjs.org/readable-stream
+373 verbose request no auth needed
+374 info attempt registry request try #1 at 15:29:06
+375 verbose etag W/"58343e6a-12397"
+376 verbose lastModified Tue, 22 Nov 2016 12:47:38 GMT
+377 http request GET https://registry.npmjs.org/readable-stream
+378 verbose request uri https://registry.npmjs.org/uid-number
+379 verbose request no auth needed
+380 info attempt registry request try #1 at 15:29:06
+381 verbose etag W/"5463e8f5-184a"
+382 verbose lastModified Wed, 12 Nov 2014 23:10:45 GMT
+383 http request GET https://registry.npmjs.org/uid-number
+384 verbose request uri https://registry.npmjs.org/fstream-ignore
+385 verbose request no auth needed
+386 info attempt registry request try #1 at 15:29:06
+387 verbose etag W/"573b8390-4685"
+388 verbose lastModified Tue, 17 May 2016 20:48:16 GMT
+389 http request GET https://registry.npmjs.org/fstream-ignore
+390 http 304 https://registry.npmjs.org/debug
+391 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+391 verbose headers   via: '1.1 varnish',
+391 verbose headers   'cache-control': 'max-age=300',
+391 verbose headers   etag: 'W/"586d3155-fc91"',
+391 verbose headers   age: '234',
+391 verbose headers   connection: 'keep-alive',
+391 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+391 verbose headers   'x-cache': 'HIT',
+391 verbose headers   'x-cache-hits': '18',
+391 verbose headers   'x-timer': 'S1483712946.734217,VS0,VE0',
+391 verbose headers   vary: 'Accept-Encoding' }
+392 silly get cb [ 304,
+392 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+392 silly get     via: '1.1 varnish',
+392 silly get     'cache-control': 'max-age=300',
+392 silly get     etag: 'W/"586d3155-fc91"',
+392 silly get     age: '234',
+392 silly get     connection: 'keep-alive',
+392 silly get     'x-served-by': 'cache-lhr6325-LHR',
+392 silly get     'x-cache': 'HIT',
+392 silly get     'x-cache-hits': '18',
+392 silly get     'x-timer': 'S1483712946.734217,VS0,VE0',
+392 silly get     vary: 'Accept-Encoding' } ]
+393 verbose etag https://registry.npmjs.org/debug from cache
+394 verbose get saving debug to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\debug\.cache.json
+395 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+396 http 304 https://registry.npmjs.org/once
+397 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+397 verbose headers   via: '1.1 varnish',
+397 verbose headers   'cache-control': 'max-age=300',
+397 verbose headers   etag: 'W/"5865db24-25b5"',
+397 verbose headers   age: '160',
+397 verbose headers   connection: 'keep-alive',
+397 verbose headers   'x-served-by': 'cache-lhr6339-LHR',
+397 verbose headers   'x-cache': 'HIT',
+397 verbose headers   'x-cache-hits': '12',
+397 verbose headers   'x-timer': 'S1483712946.736631,VS0,VE0',
+397 verbose headers   vary: 'Accept-Encoding' }
+398 silly get cb [ 304,
+398 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+398 silly get     via: '1.1 varnish',
+398 silly get     'cache-control': 'max-age=300',
+398 silly get     etag: 'W/"5865db24-25b5"',
+398 silly get     age: '160',
+398 silly get     connection: 'keep-alive',
+398 silly get     'x-served-by': 'cache-lhr6339-LHR',
+398 silly get     'x-cache': 'HIT',
+398 silly get     'x-cache-hits': '12',
+398 silly get     'x-timer': 'S1483712946.736631,VS0,VE0',
+398 silly get     vary: 'Accept-Encoding' } ]
+399 verbose etag https://registry.npmjs.org/once from cache
+400 verbose get saving once to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\once\.cache.json
+401 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+402 http 304 https://registry.npmjs.org/readable-stream
+403 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+403 verbose headers   via: '1.1 varnish',
+403 verbose headers   'cache-control': 'max-age=300',
+403 verbose headers   etag: 'W/"58343e6a-12397"',
+403 verbose headers   age: '53',
+403 verbose headers   connection: 'keep-alive',
+403 verbose headers   'x-served-by': 'cache-lhr6344-LHR',
+403 verbose headers   'x-cache': 'HIT',
+403 verbose headers   'x-cache-hits': '5',
+403 verbose headers   'x-timer': 'S1483712946.736717,VS0,VE0',
+403 verbose headers   vary: 'Accept-Encoding' }
+404 silly get cb [ 304,
+404 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+404 silly get     via: '1.1 varnish',
+404 silly get     'cache-control': 'max-age=300',
+404 silly get     etag: 'W/"58343e6a-12397"',
+404 silly get     age: '53',
+404 silly get     connection: 'keep-alive',
+404 silly get     'x-served-by': 'cache-lhr6344-LHR',
+404 silly get     'x-cache': 'HIT',
+404 silly get     'x-cache-hits': '5',
+404 silly get     'x-timer': 'S1483712946.736717,VS0,VE0',
+404 silly get     vary: 'Accept-Encoding' } ]
+405 verbose etag https://registry.npmjs.org/readable-stream from cache
+406 verbose get saving readable-stream to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\readable-stream\.cache.json
+407 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+408 silly resolveWithNewModule debug@2.2.0 checking installable status
+409 silly cache add args [ 'debug@~2.2.0', null ]
+410 verbose cache add spec debug@~2.2.0
+411 silly cache add parsed spec Result {
+411 silly cache add   raw: 'debug@~2.2.0',
+411 silly cache add   scope: null,
+411 silly cache add   escapedName: 'debug',
+411 silly cache add   name: 'debug',
+411 silly cache add   rawSpec: '~2.2.0',
+411 silly cache add   spec: '>=2.2.0 <2.3.0',
+411 silly cache add   type: 'range' }
+412 silly addNamed debug@>=2.2.0 <2.3.0
+413 verbose addNamed ">=2.2.0 <2.3.0" is a valid semver range for debug
+414 silly addNameRange { name: 'debug', range: '>=2.2.0 <2.3.0', hasData: false }
+415 silly mapToRegistry name debug
+416 silly mapToRegistry using default registry
+417 silly mapToRegistry registry https://registry.npmjs.org/
+418 silly mapToRegistry data Result {
+418 silly mapToRegistry   raw: 'debug',
+418 silly mapToRegistry   scope: null,
+418 silly mapToRegistry   escapedName: 'debug',
+418 silly mapToRegistry   name: 'debug',
+418 silly mapToRegistry   rawSpec: '',
+418 silly mapToRegistry   spec: 'latest',
+418 silly mapToRegistry   type: 'tag' }
+419 silly mapToRegistry uri https://registry.npmjs.org/debug
+420 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+421 verbose get https://registry.npmjs.org/debug not expired, no request
+422 silly addNameRange number 2 { name: 'debug', range: '>=2.2.0 <2.3.0', hasData: true }
+423 silly addNameRange versions [ 'debug',
+423 silly addNameRange   [ '0.0.1',
+423 silly addNameRange     '0.1.0',
+423 silly addNameRange     '0.2.0',
+423 silly addNameRange     '0.3.0',
+423 silly addNameRange     '0.4.0',
+423 silly addNameRange     '0.4.1',
+423 silly addNameRange     '0.5.0',
+423 silly addNameRange     '0.6.0',
+423 silly addNameRange     '0.7.0',
+423 silly addNameRange     '0.7.1',
+423 silly addNameRange     '0.7.2',
+423 silly addNameRange     '0.7.3',
+423 silly addNameRange     '0.7.4',
+423 silly addNameRange     '0.8.0',
+423 silly addNameRange     '0.8.1',
+423 silly addNameRange     '1.0.0',
+423 silly addNameRange     '1.0.1',
+423 silly addNameRange     '1.0.2',
+423 silly addNameRange     '1.0.3',
+423 silly addNameRange     '1.0.4',
+423 silly addNameRange     '2.0.0',
+423 silly addNameRange     '2.1.0',
+423 silly addNameRange     '2.1.1',
+423 silly addNameRange     '2.1.2',
+423 silly addNameRange     '2.1.3',
+423 silly addNameRange     '2.2.0',
+423 silly addNameRange     '2.3.0',
+423 silly addNameRange     '2.3.1',
+423 silly addNameRange     '2.3.2',
+423 silly addNameRange     '2.3.3',
+423 silly addNameRange     '2.4.0',
+423 silly addNameRange     '2.4.1',
+423 silly addNameRange     '2.4.2',
+423 silly addNameRange     '2.4.3',
+423 silly addNameRange     '2.4.4',
+423 silly addNameRange     '2.4.5',
+423 silly addNameRange     '2.5.0',
+423 silly addNameRange     '2.5.1',
+423 silly addNameRange     '2.5.2',
+423 silly addNameRange     '2.6.0' ] ]
+424 silly addNamed debug@2.2.0
+425 verbose addNamed "2.2.0" is a plain semver version for debug
+426 silly resolveWithNewModule once@1.3.3 checking installable status
+427 silly cache add args [ 'once@~1.3.3', null ]
+428 verbose cache add spec once@~1.3.3
+429 silly cache add parsed spec Result {
+429 silly cache add   raw: 'once@~1.3.3',
+429 silly cache add   scope: null,
+429 silly cache add   escapedName: 'once',
+429 silly cache add   name: 'once',
+429 silly cache add   rawSpec: '~1.3.3',
+429 silly cache add   spec: '>=1.3.3 <1.4.0',
+429 silly cache add   type: 'range' }
+430 silly addNamed once@>=1.3.3 <1.4.0
+431 verbose addNamed ">=1.3.3 <1.4.0" is a valid semver range for once
+432 silly addNameRange { name: 'once', range: '>=1.3.3 <1.4.0', hasData: false }
+433 silly mapToRegistry name once
+434 silly mapToRegistry using default registry
+435 silly mapToRegistry registry https://registry.npmjs.org/
+436 silly mapToRegistry data Result {
+436 silly mapToRegistry   raw: 'once',
+436 silly mapToRegistry   scope: null,
+436 silly mapToRegistry   escapedName: 'once',
+436 silly mapToRegistry   name: 'once',
+436 silly mapToRegistry   rawSpec: '',
+436 silly mapToRegistry   spec: 'latest',
+436 silly mapToRegistry   type: 'tag' }
+437 silly mapToRegistry uri https://registry.npmjs.org/once
+438 verbose addNameRange registry:https://registry.npmjs.org/once not in flight; fetching
+439 silly resolveWithNewModule readable-stream@2.1.5 checking installable status
+440 silly cache add args [ 'readable-stream@~2.1.4', null ]
+441 verbose cache add spec readable-stream@~2.1.4
+442 silly cache add parsed spec Result {
+442 silly cache add   raw: 'readable-stream@~2.1.4',
+442 silly cache add   scope: null,
+442 silly cache add   escapedName: 'readable-stream',
+442 silly cache add   name: 'readable-stream',
+442 silly cache add   rawSpec: '~2.1.4',
+442 silly cache add   spec: '>=2.1.4 <2.2.0',
+442 silly cache add   type: 'range' }
+443 silly addNamed readable-stream@>=2.1.4 <2.2.0
+444 verbose addNamed ">=2.1.4 <2.2.0" is a valid semver range for readable-stream
+445 silly addNameRange { name: 'readable-stream',
+445 silly addNameRange   range: '>=2.1.4 <2.2.0',
+445 silly addNameRange   hasData: false }
+446 silly mapToRegistry name readable-stream
+447 silly mapToRegistry using default registry
+448 silly mapToRegistry registry https://registry.npmjs.org/
+449 silly mapToRegistry data Result {
+449 silly mapToRegistry   raw: 'readable-stream',
+449 silly mapToRegistry   scope: null,
+449 silly mapToRegistry   escapedName: 'readable-stream',
+449 silly mapToRegistry   name: 'readable-stream',
+449 silly mapToRegistry   rawSpec: '',
+449 silly mapToRegistry   spec: 'latest',
+449 silly mapToRegistry   type: 'tag' }
+450 silly mapToRegistry uri https://registry.npmjs.org/readable-stream
+451 verbose addNameRange registry:https://registry.npmjs.org/readable-stream not in flight; fetching
+452 verbose get https://registry.npmjs.org/once not expired, no request
+453 silly addNameRange number 2 { name: 'once', range: '>=1.3.3 <1.4.0', hasData: true }
+454 silly addNameRange versions [ 'once',
+454 silly addNameRange   [ '1.1.1', '1.2.0', '1.3.0', '1.3.1', '1.3.2', '1.3.3', '1.4.0' ] ]
+455 silly addNamed once@1.3.3
+456 verbose addNamed "1.3.3" is a plain semver version for once
+457 silly cache afterAdd debug@2.2.0
+458 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\debug\2.2.0\package\package.json not in flight; writing
+459 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+460 verbose get https://registry.npmjs.org/readable-stream not expired, no request
+461 silly addNameRange number 2 { name: 'readable-stream',
+461 silly addNameRange   range: '>=2.1.4 <2.2.0',
+461 silly addNameRange   hasData: true }
+462 silly addNameRange versions [ 'readable-stream',
+462 silly addNameRange   [ '0.0.1',
+462 silly addNameRange     '0.0.2',
+462 silly addNameRange     '0.0.3',
+462 silly addNameRange     '0.0.4',
+462 silly addNameRange     '0.1.0',
+462 silly addNameRange     '0.2.0',
+462 silly addNameRange     '0.3.0',
+462 silly addNameRange     '0.3.1',
+462 silly addNameRange     '1.0.0',
+462 silly addNameRange     '1.0.1',
+462 silly addNameRange     '1.0.2',
+462 silly addNameRange     '1.0.15',
+462 silly addNameRange     '1.0.17',
+462 silly addNameRange     '1.1.7',
+462 silly addNameRange     '1.1.8',
+462 silly addNameRange     '1.1.9',
+462 silly addNameRange     '1.0.24',
+462 silly addNameRange     '1.0.25',
+462 silly addNameRange     '1.1.10',
+462 silly addNameRange     '1.0.25-1',
+462 silly addNameRange     '1.1.11',
+462 silly addNameRange     '1.0.26',
+462 silly addNameRange     '1.0.26-1',
+462 silly addNameRange     '1.1.11-1',
+462 silly addNameRange     '1.0.26-2',
+462 silly addNameRange     '1.1.12',
+462 silly addNameRange     '1.0.26-3',
+462 silly addNameRange     '1.0.26-4',
+462 silly addNameRange     '1.1.12-1',
+462 silly addNameRange     '1.0.27-1',
+462 silly addNameRange     '1.1.13-1',
+462 silly addNameRange     '1.0.31',
+462 silly addNameRange     '1.1.13',
+462 silly addNameRange     '1.0.32',
+462 silly addNameRange     '1.0.32-1',
+462 silly addNameRange     '1.0.33-1',
+462 silly addNameRange     '1.0.33-2',
+462 silly addNameRange     '1.0.33',
+462 silly addNameRange     '2.0.0',
+462 silly addNameRange     '2.0.1',
+462 silly addNameRange     '2.0.2',
+462 silly addNameRange     '2.0.3',
+462 silly addNameRange     '2.0.4',
+462 silly addNameRange     '2.0.5',
+462 silly addNameRange     '2.0.6',
+462 silly addNameRange     '1.0.34',
+462 silly addNameRange     '1.1.14',
+462 silly addNameRange     '2.1.0',
+462 silly addNameRange     '2.1.1',
+462 silly addNameRange     '2.1.2',
+462 silly addNameRange     '2.1.3',
+462 silly addNameRange     '2.1.4',
+462 silly addNameRange     '2.1.5',
+462 silly addNameRange     '2.2.0',
+462 silly addNameRange     '2.2.1',
+462 silly addNameRange     '2.2.2' ] ]
+463 silly addNamed readable-stream@2.1.5
+464 verbose addNamed "2.1.5" is a plain semver version for readable-stream
+465 silly cache afterAdd once@1.3.3
+466 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\once\1.3.3\package\package.json not in flight; writing
+467 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+468 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\debug\2.2.0\package\package.json written
+469 silly cache afterAdd readable-stream@2.1.5
+470 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\readable-stream\2.1.5\package\package.json not in flight; writing
+471 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+472 http 304 https://registry.npmjs.org/uid-number
+473 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+473 verbose headers   via: '1.1 varnish',
+473 verbose headers   'cache-control': 'max-age=300',
+473 verbose headers   etag: 'W/"5463e8f5-184a"',
+473 verbose headers   age: '243',
+473 verbose headers   connection: 'keep-alive',
+473 verbose headers   'x-served-by': 'cache-lhr6341-LHR',
+473 verbose headers   'x-cache': 'HIT',
+473 verbose headers   'x-cache-hits': '4',
+473 verbose headers   'x-timer': 'S1483712946.764845,VS0,VE0',
+473 verbose headers   vary: 'Accept-Encoding' }
+474 silly get cb [ 304,
+474 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+474 silly get     via: '1.1 varnish',
+474 silly get     'cache-control': 'max-age=300',
+474 silly get     etag: 'W/"5463e8f5-184a"',
+474 silly get     age: '243',
+474 silly get     connection: 'keep-alive',
+474 silly get     'x-served-by': 'cache-lhr6341-LHR',
+474 silly get     'x-cache': 'HIT',
+474 silly get     'x-cache-hits': '4',
+474 silly get     'x-timer': 'S1483712946.764845,VS0,VE0',
+474 silly get     vary: 'Accept-Encoding' } ]
+475 verbose etag https://registry.npmjs.org/uid-number from cache
+476 verbose get saving uid-number to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\uid-number\.cache.json
+477 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+478 http 304 https://registry.npmjs.org/fstream-ignore
+479 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+479 verbose headers   via: '1.1 varnish',
+479 verbose headers   'cache-control': 'max-age=300',
+479 verbose headers   etag: 'W/"573b8390-4685"',
+479 verbose headers   age: '71',
+479 verbose headers   connection: 'keep-alive',
+479 verbose headers   'x-served-by': 'cache-lhr6344-LHR',
+479 verbose headers   'x-cache': 'HIT',
+479 verbose headers   'x-cache-hits': '3',
+479 verbose headers   'x-timer': 'S1483712946.764696,VS0,VE0',
+479 verbose headers   vary: 'Accept-Encoding' }
+480 silly get cb [ 304,
+480 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+480 silly get     via: '1.1 varnish',
+480 silly get     'cache-control': 'max-age=300',
+480 silly get     etag: 'W/"573b8390-4685"',
+480 silly get     age: '71',
+480 silly get     connection: 'keep-alive',
+480 silly get     'x-served-by': 'cache-lhr6344-LHR',
+480 silly get     'x-cache': 'HIT',
+480 silly get     'x-cache-hits': '3',
+480 silly get     'x-timer': 'S1483712946.764696,VS0,VE0',
+480 silly get     vary: 'Accept-Encoding' } ]
+481 verbose etag https://registry.npmjs.org/fstream-ignore from cache
+482 verbose get saving fstream-ignore to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\fstream-ignore\.cache.json
+483 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+484 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\once\1.3.3\package\package.json written
+485 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\readable-stream\2.1.5\package\package.json written
+486 silly resolveWithNewModule uid-number@0.0.6 checking installable status
+487 silly cache add args [ 'uid-number@~0.0.6', null ]
+488 verbose cache add spec uid-number@~0.0.6
+489 silly cache add parsed spec Result {
+489 silly cache add   raw: 'uid-number@~0.0.6',
+489 silly cache add   scope: null,
+489 silly cache add   escapedName: 'uid-number',
+489 silly cache add   name: 'uid-number',
+489 silly cache add   rawSpec: '~0.0.6',
+489 silly cache add   spec: '>=0.0.6 <0.1.0',
+489 silly cache add   type: 'range' }
+490 silly addNamed uid-number@>=0.0.6 <0.1.0
+491 verbose addNamed ">=0.0.6 <0.1.0" is a valid semver range for uid-number
+492 silly addNameRange { name: 'uid-number', range: '>=0.0.6 <0.1.0', hasData: false }
+493 silly mapToRegistry name uid-number
+494 silly mapToRegistry using default registry
+495 silly mapToRegistry registry https://registry.npmjs.org/
+496 silly mapToRegistry data Result {
+496 silly mapToRegistry   raw: 'uid-number',
+496 silly mapToRegistry   scope: null,
+496 silly mapToRegistry   escapedName: 'uid-number',
+496 silly mapToRegistry   name: 'uid-number',
+496 silly mapToRegistry   rawSpec: '',
+496 silly mapToRegistry   spec: 'latest',
+496 silly mapToRegistry   type: 'tag' }
+497 silly mapToRegistry uri https://registry.npmjs.org/uid-number
+498 verbose addNameRange registry:https://registry.npmjs.org/uid-number not in flight; fetching
+499 verbose get https://registry.npmjs.org/uid-number not expired, no request
+500 silly addNameRange number 2 { name: 'uid-number', range: '>=0.0.6 <0.1.0', hasData: true }
+501 silly addNameRange versions [ 'uid-number',
+501 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6' ] ]
+502 silly addNamed uid-number@0.0.6
+503 verbose addNamed "0.0.6" is a plain semver version for uid-number
+504 silly resolveWithNewModule fstream-ignore@1.0.5 checking installable status
+505 silly cache add args [ 'fstream-ignore@~1.0.5', null ]
+506 verbose cache add spec fstream-ignore@~1.0.5
+507 silly cache add parsed spec Result {
+507 silly cache add   raw: 'fstream-ignore@~1.0.5',
+507 silly cache add   scope: null,
+507 silly cache add   escapedName: 'fstream-ignore',
+507 silly cache add   name: 'fstream-ignore',
+507 silly cache add   rawSpec: '~1.0.5',
+507 silly cache add   spec: '>=1.0.5 <1.1.0',
+507 silly cache add   type: 'range' }
+508 silly addNamed fstream-ignore@>=1.0.5 <1.1.0
+509 verbose addNamed ">=1.0.5 <1.1.0" is a valid semver range for fstream-ignore
+510 silly addNameRange { name: 'fstream-ignore',
+510 silly addNameRange   range: '>=1.0.5 <1.1.0',
+510 silly addNameRange   hasData: false }
+511 silly mapToRegistry name fstream-ignore
+512 silly mapToRegistry using default registry
+513 silly mapToRegistry registry https://registry.npmjs.org/
+514 silly mapToRegistry data Result {
+514 silly mapToRegistry   raw: 'fstream-ignore',
+514 silly mapToRegistry   scope: null,
+514 silly mapToRegistry   escapedName: 'fstream-ignore',
+514 silly mapToRegistry   name: 'fstream-ignore',
+514 silly mapToRegistry   rawSpec: '',
+514 silly mapToRegistry   spec: 'latest',
+514 silly mapToRegistry   type: 'tag' }
+515 silly mapToRegistry uri https://registry.npmjs.org/fstream-ignore
+516 verbose addNameRange registry:https://registry.npmjs.org/fstream-ignore not in flight; fetching
+517 verbose get https://registry.npmjs.org/fstream-ignore not expired, no request
+518 silly addNameRange number 2 { name: 'fstream-ignore',
+518 silly addNameRange   range: '>=1.0.5 <1.1.0',
+518 silly addNameRange   hasData: true }
+519 silly addNameRange versions [ 'fstream-ignore',
+519 silly addNameRange   [ '0.0.1',
+519 silly addNameRange     '0.0.2',
+519 silly addNameRange     '0.0.3',
+519 silly addNameRange     '0.0.4',
+519 silly addNameRange     '0.0.5',
+519 silly addNameRange     '0.0.6',
+519 silly addNameRange     '0.0.7',
+519 silly addNameRange     '0.0.8',
+519 silly addNameRange     '0.0.9',
+519 silly addNameRange     '0.0.10',
+519 silly addNameRange     '1.0.0',
+519 silly addNameRange     '1.0.1',
+519 silly addNameRange     '1.0.2',
+519 silly addNameRange     '1.0.3',
+519 silly addNameRange     '1.0.4',
+519 silly addNameRange     '1.0.5' ] ]
+520 silly addNamed fstream-ignore@1.0.5
+521 verbose addNamed "1.0.5" is a plain semver version for fstream-ignore
+522 silly cache afterAdd uid-number@0.0.6
+523 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\uid-number\0.0.6\package\package.json not in flight; writing
+524 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+525 silly cache afterAdd fstream-ignore@1.0.5
+526 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\fstream-ignore\1.0.5\package\package.json not in flight; writing
+527 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+528 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\uid-number\0.0.6\package\package.json written
+529 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\fstream-ignore\1.0.5\package\package.json written
+530 silly fetchNamedPackageData ms
+531 silly mapToRegistry name ms
+532 silly mapToRegistry using default registry
+533 silly mapToRegistry registry https://registry.npmjs.org/
+534 silly mapToRegistry data Result {
+534 silly mapToRegistry   raw: 'ms',
+534 silly mapToRegistry   scope: null,
+534 silly mapToRegistry   escapedName: 'ms',
+534 silly mapToRegistry   name: 'ms',
+534 silly mapToRegistry   rawSpec: '',
+534 silly mapToRegistry   spec: 'latest',
+534 silly mapToRegistry   type: 'tag' }
+535 silly mapToRegistry uri https://registry.npmjs.org/ms
+536 verbose request uri https://registry.npmjs.org/ms
+537 verbose request no auth needed
+538 info attempt registry request try #1 at 15:29:06
+539 verbose etag W/"5865d365-2c43"
+540 verbose lastModified Fri, 30 Dec 2016 03:24:21 GMT
+541 http request GET https://registry.npmjs.org/ms
+542 http 304 https://registry.npmjs.org/ms
+543 verbose headers { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+543 verbose headers   via: '1.1 varnish',
+543 verbose headers   'cache-control': 'max-age=300',
+543 verbose headers   etag: 'W/"5865d365-2c43"',
+543 verbose headers   age: '20',
+543 verbose headers   connection: 'keep-alive',
+543 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+543 verbose headers   'x-cache': 'HIT',
+543 verbose headers   'x-cache-hits': '4',
+543 verbose headers   'x-timer': 'S1483712946.809373,VS0,VE0',
+543 verbose headers   vary: 'Accept-Encoding' }
+544 silly get cb [ 304,
+544 silly get   { date: 'Fri, 06 Jan 2017 14:29:06 GMT',
+544 silly get     via: '1.1 varnish',
+544 silly get     'cache-control': 'max-age=300',
+544 silly get     etag: 'W/"5865d365-2c43"',
+544 silly get     age: '20',
+544 silly get     connection: 'keep-alive',
+544 silly get     'x-served-by': 'cache-lhr6325-LHR',
+544 silly get     'x-cache': 'HIT',
+544 silly get     'x-cache-hits': '4',
+544 silly get     'x-timer': 'S1483712946.809373,VS0,VE0',
+544 silly get     vary: 'Accept-Encoding' } ]
+545 verbose etag https://registry.npmjs.org/ms from cache
+546 verbose get saving ms to C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\registry.npmjs.org\ms\.cache.json
+547 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+548 silly resolveWithNewModule ms@0.7.1 checking installable status
+549 silly cache add args [ 'ms@0.7.1', null ]
+550 verbose cache add spec ms@0.7.1
+551 silly cache add parsed spec Result {
+551 silly cache add   raw: 'ms@0.7.1',
+551 silly cache add   scope: null,
+551 silly cache add   escapedName: 'ms',
+551 silly cache add   name: 'ms',
+551 silly cache add   rawSpec: '0.7.1',
+551 silly cache add   spec: '0.7.1',
+551 silly cache add   type: 'version' }
+552 silly addNamed ms@0.7.1
+553 verbose addNamed "0.7.1" is a plain semver version for ms
+554 silly mapToRegistry name ms
+555 silly mapToRegistry using default registry
+556 silly mapToRegistry registry https://registry.npmjs.org/
+557 silly mapToRegistry data Result {
+557 silly mapToRegistry   raw: 'ms',
+557 silly mapToRegistry   scope: null,
+557 silly mapToRegistry   escapedName: 'ms',
+557 silly mapToRegistry   name: 'ms',
+557 silly mapToRegistry   rawSpec: '',
+557 silly mapToRegistry   spec: 'latest',
+557 silly mapToRegistry   type: 'tag' }
+558 silly mapToRegistry uri https://registry.npmjs.org/ms
+559 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+560 verbose get https://registry.npmjs.org/ms not expired, no request
+561 silly cache afterAdd ms@0.7.1
+562 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\ms\0.7.1\package\package.json not in flight; writing
+563 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm correctMkdir not in flight; initializing
+564 verbose afterAdd C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\ms\0.7.1\package\package.json written
+565 silly loadAllDepsIntoIdealTree Finishing
+566 silly loadIdealTree Finishing
+567 silly currentTree crud-meteor@
+567 silly currentTree +-- abbrev@1.0.9
+567 silly currentTree +-- ansi-regex@2.0.0
+567 silly currentTree +-- ansi-styles@2.2.1
+567 silly currentTree +-- aproba@1.0.4
+567 silly currentTree +-- are-we-there-yet@1.1.2
+567 silly currentTree +-- array-find-index@1.0.2
+567 silly currentTree +-- array-index@1.0.0
+567 silly currentTree +-- asn1@0.2.3
+567 silly currentTree +-- assert-plus@0.2.0
+567 silly currentTree +-- async-foreach@0.1.3
+567 silly currentTree +-- asynckit@0.4.0
+567 silly currentTree +-- aws-sign2@0.6.0
+567 silly currentTree +-- aws4@1.5.0
+567 silly currentTree +-- babel-runtime@6.18.0
+567 silly currentTree +-- balanced-match@0.4.2
+567 silly currentTree +-- bcrypt-pbkdf@1.0.0
+567 silly currentTree +-- block-stream@0.0.9
+567 silly currentTree +-- boom@2.10.1
+567 silly currentTree +-- brace-expansion@1.1.6
+567 silly currentTree +-- buffer-shims@1.0.0
+567 silly currentTree +-- builtin-modules@1.1.1
+567 silly currentTree +-- camelcase-keys@2.1.0
+567 silly currentTree +-- camelcase@2.1.1
+567 silly currentTree +-- caseless@0.11.0
+567 silly currentTree +-- chalk@1.1.3
+567 silly currentTree +-- cliui@3.2.0
+567 silly currentTree +-- code-point-at@1.1.0
+567 silly currentTree +-- combined-stream@1.0.5
+567 silly currentTree +-- commander@2.9.0
+567 silly currentTree +-- concat-map@0.0.1
+567 silly currentTree +-- console-control-strings@1.1.0
+567 silly currentTree +-- core-js@2.4.1
+567 silly currentTree +-- core-util-is@1.0.2
+567 silly currentTree +-- cross-spawn@3.0.1
+567 silly currentTree +-- cryptiles@2.0.5
+567 silly currentTree +-- currently-unhandled@0.4.1
+567 silly currentTree +-- d@0.1.1
+567 silly currentTree +-- dashdash@1.14.1
+567 silly currentTree | `-- assert-plus@1.0.0
+567 silly currentTree +-- debug@2.6.0
+567 silly currentTree +-- decamelize@1.2.0
+567 silly currentTree +-- delayed-stream@1.0.0
+567 silly currentTree +-- delegates@1.0.0
+567 silly currentTree +-- ecc-jsbn@0.1.1
+567 silly currentTree +-- error-ex@1.3.0
+567 silly currentTree +-- es5-ext@0.10.12
+567 silly currentTree +-- es6-iterator@2.0.0
+567 silly currentTree +-- es6-symbol@3.1.0
+567 silly currentTree +-- escape-string-regexp@1.0.5
+567 silly currentTree +-- extend@3.0.0
+567 silly currentTree +-- extsprintf@1.0.2
+567 silly currentTree +-- find-up@1.1.2
+567 silly currentTree +-- forever-agent@0.6.1
+567 silly currentTree +-- form-data@2.1.2
+567 silly currentTree +-- fs.realpath@1.0.0
+567 silly currentTree +-- fstream@1.0.10
+567 silly currentTree +-- gauge@2.6.0
+567 silly currentTree +-- gaze@1.1.2
+567 silly currentTree +-- generate-function@2.0.0
+567 silly currentTree +-- generate-object-property@1.2.0
+567 silly currentTree +-- get-caller-file@1.0.2
+567 silly currentTree +-- get-stdin@4.0.1
+567 silly currentTree +-- getpass@0.1.6
+567 silly currentTree | `-- assert-plus@1.0.0
+567 silly currentTree +-- glob@7.1.1
+567 silly currentTree +-- globule@1.1.0
+567 silly currentTree +-- graceful-fs@4.1.11
+567 silly currentTree +-- graceful-readlink@1.0.1
+567 silly currentTree +-- har-validator@2.0.6
+567 silly currentTree +-- has-ansi@2.0.0
+567 silly currentTree +-- has-color@0.1.7
+567 silly currentTree +-- has-unicode@2.0.1
+567 silly currentTree +-- hawk@3.1.3
+567 silly currentTree +-- hoek@2.16.3
+567 silly currentTree +-- hosted-git-info@2.1.5
+567 silly currentTree +-- http-signature@1.1.1
+567 silly currentTree +-- in-publish@2.0.0
+567 silly currentTree +-- indent-string@2.1.0
+567 silly currentTree +-- inflight@1.0.6
+567 silly currentTree +-- inherits@2.0.3
+567 silly currentTree +-- invert-kv@1.0.0
+567 silly currentTree +-- is-arrayish@0.2.1
+567 silly currentTree +-- is-builtin-module@1.0.0
+567 silly currentTree +-- is-finite@1.0.2
+567 silly currentTree +-- is-fullwidth-code-point@1.0.0
+567 silly currentTree +-- is-my-json-valid@2.15.0
+567 silly currentTree +-- is-property@1.0.2
+567 silly currentTree +-- is-typedarray@1.0.0
+567 silly currentTree +-- is-utf8@0.2.1
+567 silly currentTree +-- isarray@1.0.0
+567 silly currentTree +-- isexe@1.1.2
+567 silly currentTree +-- isstream@0.1.2
+567 silly currentTree +-- jodid25519@1.0.2
+567 silly currentTree +-- jsbn@0.1.0
+567 silly currentTree +-- json-schema@0.2.3
+567 silly currentTree +-- json-stringify-safe@5.0.1
+567 silly currentTree +-- jsonpointer@4.0.1
+567 silly currentTree +-- jsprim@1.3.1
+567 silly currentTree +-- lcid@1.0.0
+567 silly currentTree +-- load-json-file@1.1.0
+567 silly currentTree +-- lodash.assign@4.2.0
+567 silly currentTree +-- lodash.clonedeep@4.5.0
+567 silly currentTree +-- lodash.mergewith@4.6.0
+567 silly currentTree +-- lodash@4.16.6
+567 silly currentTree +-- loud-rejection@1.6.0
+567 silly currentTree +-- lru-cache@4.0.2
+567 silly currentTree +-- map-obj@1.0.1
+567 silly currentTree +-- meow@3.7.0
+567 silly currentTree +-- meteor-node-stubs@0.2.4
+567 silly currentTree | +-- asn1.js@4.9.0
+567 silly currentTree | +-- assert@1.4.1
+567 silly currentTree | +-- base64-js@1.2.0
+567 silly currentTree | +-- Base64@0.2.1
+567 silly currentTree | +-- bn.js@4.11.6
+567 silly currentTree | +-- brorand@1.0.6
+567 silly currentTree | +-- browserify-aes@1.0.6
+567 silly currentTree | +-- browserify-cipher@1.0.0
+567 silly currentTree | +-- browserify-des@1.0.0
+567 silly currentTree | +-- browserify-rsa@4.0.1
+567 silly currentTree | +-- browserify-sign@4.0.0
+567 silly currentTree | +-- browserify-zlib@0.1.4
+567 silly currentTree | +-- buffer-shims@1.0.0
+567 silly currentTree | +-- buffer-xor@1.0.3
+567 silly currentTree | +-- buffer@4.9.1
+567 silly currentTree | +-- cipher-base@1.0.3
+567 silly currentTree | +-- console-browserify@1.1.0
+567 silly currentTree | +-- constants-browserify@1.0.0
+567 silly currentTree | +-- core-util-is@1.0.2
+567 silly currentTree | +-- create-ecdh@4.0.0
+567 silly currentTree | +-- create-hash@1.1.2
+567 silly currentTree | +-- create-hmac@1.1.4
+567 silly currentTree | +-- crypto-browserify@3.11.0
+567 silly currentTree | +-- date-now@0.1.4
+567 silly currentTree | +-- des.js@1.0.0
+567 silly currentTree | +-- diffie-hellman@5.0.2
+567 silly currentTree | +-- domain-browser@1.1.7
+567 silly currentTree | +-- elliptic@6.3.2
+567 silly currentTree | +-- events@1.1.1
+567 silly currentTree | +-- evp_bytestokey@1.0.0
+567 silly currentTree | +-- hash.js@1.0.3
+567 silly currentTree | +-- http-browserify@1.7.0
+567 silly currentTree | +-- https-browserify@0.0.1
+567 silly currentTree | +-- ieee754@1.1.8
+567 silly currentTree | +-- indexof@0.0.1
+567 silly currentTree | +-- inherits@2.0.1
+567 silly currentTree | +-- isarray@1.0.0
+567 silly currentTree | +-- miller-rabin@4.0.0
+567 silly currentTree | +-- minimalistic-assert@1.0.0
+567 silly currentTree | +-- os-browserify@0.2.1
+567 silly currentTree | +-- pako@0.2.9
+567 silly currentTree | +-- parse-asn1@5.0.0
+567 silly currentTree | +-- path-browserify@0.0.0
+567 silly currentTree | +-- pbkdf2@3.0.9
+567 silly currentTree | +-- process-nextick-args@1.0.7
+567 silly currentTree | +-- process@0.11.9
+567 silly currentTree | +-- public-encrypt@4.0.0
+567 silly currentTree | +-- punycode@1.4.1
+567 silly currentTree | +-- querystring-es3@0.2.1
+567 silly currentTree | +-- querystring@0.2.0
+567 silly currentTree | +-- randombytes@2.0.3
+567 silly currentTree | +-- readable-stream@2.2.1
+567 silly currentTree | +-- ripemd160@1.0.1
+567 silly currentTree | +-- sha.js@2.4.8
+567 silly currentTree | +-- stream-browserify@2.0.1
+567 silly currentTree | +-- string_decoder@0.10.31
+567 silly currentTree | +-- timers-browserify@1.4.2
+567 silly currentTree | +-- tty-browserify@0.0.0
+567 silly currentTree | +-- url@0.11.0
+567 silly currentTree | | `-- punycode@1.3.2
+567 silly currentTree | +-- util-deprecate@1.0.2
+567 silly currentTree | +-- util@0.10.3
+567 silly currentTree | `-- vm-browserify@0.0.4
+567 silly currentTree +-- mime-db@1.25.0
+567 silly currentTree +-- mime-types@2.1.13
+567 silly currentTree +-- minimatch@3.0.3
+567 silly currentTree +-- minimist@1.2.0
+567 silly currentTree +-- mkdirp@0.5.1
+567 silly currentTree | `-- minimist@0.0.8
+567 silly currentTree +-- ms@0.7.2
+567 silly currentTree +-- nan@2.5.0
+567 silly currentTree +-- node-gyp@3.4.0
+567 silly currentTree | `-- npmlog@3.1.2
+567 silly currentTree +-- node-sass@4.1.1
+567 silly currentTree +-- nopt@3.0.6
+567 silly currentTree +-- normalize-package-data@2.3.5
+567 silly currentTree +-- npmlog@4.0.2
+567 silly currentTree | +-- gauge@2.7.2
+567 silly currentTree | `-- supports-color@0.2.0
+567 silly currentTree +-- number-is-nan@1.0.1
+567 silly currentTree +-- oauth-sign@0.8.2
+567 silly currentTree +-- object-assign@4.1.0
+567 silly currentTree +-- once@1.4.0
+567 silly currentTree +-- os-homedir@1.0.2
+567 silly currentTree +-- os-locale@1.4.0
+567 silly currentTree +-- os-tmpdir@1.0.2
+567 silly currentTree +-- osenv@0.1.4
+567 silly currentTree +-- parse-json@2.2.0
+567 silly currentTree +-- path-array@1.0.1
+567 silly currentTree +-- path-exists@2.1.0
+567 silly currentTree +-- path-is-absolute@1.0.1
+567 silly currentTree +-- path-type@1.1.0
+567 silly currentTree +-- pify@2.3.0
+567 silly currentTree +-- pinkie-promise@2.0.1
+567 silly currentTree +-- pinkie@2.0.4
+567 silly currentTree +-- process-nextick-args@1.0.7
+567 silly currentTree +-- pseudomap@1.0.2
+567 silly currentTree +-- punycode@1.4.1
+567 silly currentTree +-- qs@6.3.0
+567 silly currentTree +-- read-pkg-up@1.0.1
+567 silly currentTree +-- read-pkg@1.1.0
+567 silly currentTree +-- readable-stream@2.2.2
+567 silly currentTree +-- redent@1.0.0
+567 silly currentTree +-- regenerator-runtime@0.9.6
+567 silly currentTree +-- repeating@2.0.1
+567 silly currentTree +-- request@2.79.0
+567 silly currentTree +-- require-directory@2.1.1
+567 silly currentTree +-- require-main-filename@1.0.1
+567 silly currentTree +-- rimraf@2.5.4
+567 silly currentTree +-- sass-graph@2.1.2
+567 silly currentTree +-- semver@5.3.0
+567 silly currentTree +-- set-blocking@2.0.0
+567 silly currentTree +-- signal-exit@3.0.2
+567 silly currentTree +-- sntp@1.0.9
+567 silly currentTree +-- spdx-correct@1.0.2
+567 silly currentTree +-- spdx-expression-parse@1.0.4
+567 silly currentTree +-- spdx-license-ids@1.2.2
+567 silly currentTree +-- sshpk@1.10.1
+567 silly currentTree | `-- assert-plus@1.0.0
+567 silly currentTree +-- stdout-stream@1.4.0
+567 silly currentTree +-- string_decoder@0.10.31
+567 silly currentTree +-- string-width@1.0.2
+567 silly currentTree +-- stringstream@0.0.5
+567 silly currentTree +-- strip-ansi@3.0.1
+567 silly currentTree +-- strip-bom@2.0.0
+567 silly currentTree +-- strip-indent@1.0.1
+567 silly currentTree +-- supports-color@2.0.0
+567 silly currentTree +-- tar@2.2.1
+567 silly currentTree +-- tough-cookie@2.3.2
+567 silly currentTree +-- trim-newlines@1.0.0
+567 silly currentTree +-- tunnel-agent@0.4.3
+567 silly currentTree +-- tweetnacl@0.14.5
+567 silly currentTree +-- util-deprecate@1.0.2
+567 silly currentTree +-- uuid@3.0.1
+567 silly currentTree +-- validate-npm-package-license@3.0.1
+567 silly currentTree +-- verror@1.3.6
+567 silly currentTree +-- which-module@1.0.0
+567 silly currentTree +-- which@1.2.12
+567 silly currentTree +-- wide-align@1.1.0
+567 silly currentTree +-- window-size@0.2.0
+567 silly currentTree +-- wrap-ansi@2.1.0
+567 silly currentTree +-- wrappy@1.0.2
+567 silly currentTree +-- xtend@4.0.1
+567 silly currentTree +-- y18n@3.2.1
+567 silly currentTree +-- yallist@2.0.0
+567 silly currentTree +-- yargs-parser@2.4.1
+567 silly currentTree | `-- camelcase@3.0.0
+567 silly currentTree `-- yargs@4.8.1
+568 silly idealTree crud-meteor@
+568 silly idealTree +-- abbrev@1.0.9
+568 silly idealTree +-- ansi-regex@2.0.0
+568 silly idealTree +-- ansi-styles@2.2.1
+568 silly idealTree +-- aproba@1.0.4
+568 silly idealTree +-- are-we-there-yet@1.1.2
+568 silly idealTree +-- array-find-index@1.0.2
+568 silly idealTree +-- array-index@1.0.0
+568 silly idealTree +-- asn1@0.2.3
+568 silly idealTree +-- assert-plus@0.2.0
+568 silly idealTree +-- async-foreach@0.1.3
+568 silly idealTree +-- asynckit@0.4.0
+568 silly idealTree +-- aws-sign2@0.6.0
+568 silly idealTree +-- aws4@1.5.0
+568 silly idealTree +-- babel-runtime@6.18.0
+568 silly idealTree +-- balanced-match@0.4.2
+568 silly idealTree +-- bcrypt-pbkdf@1.0.0
+568 silly idealTree +-- bcrypt@1.0.2
+568 silly idealTree +-- bindings@1.2.1
+568 silly idealTree +-- block-stream@0.0.9
+568 silly idealTree +-- boom@2.10.1
+568 silly idealTree +-- brace-expansion@1.1.6
+568 silly idealTree +-- buffer-shims@1.0.0
+568 silly idealTree +-- builtin-modules@1.1.1
+568 silly idealTree +-- camelcase-keys@2.1.0
+568 silly idealTree +-- camelcase@2.1.1
+568 silly idealTree +-- caseless@0.11.0
+568 silly idealTree +-- chalk@1.1.3
+568 silly idealTree +-- cliui@3.2.0
+568 silly idealTree +-- code-point-at@1.1.0
+568 silly idealTree +-- combined-stream@1.0.5
+568 silly idealTree +-- commander@2.9.0
+568 silly idealTree +-- concat-map@0.0.1
+568 silly idealTree +-- console-control-strings@1.1.0
+568 silly idealTree +-- core-js@2.4.1
+568 silly idealTree +-- core-util-is@1.0.2
+568 silly idealTree +-- cross-spawn@3.0.1
+568 silly idealTree +-- cryptiles@2.0.5
+568 silly idealTree +-- currently-unhandled@0.4.1
+568 silly idealTree +-- d@0.1.1
+568 silly idealTree +-- dashdash@1.14.1
+568 silly idealTree | `-- assert-plus@1.0.0
+568 silly idealTree +-- debug@2.6.0
+568 silly idealTree +-- decamelize@1.2.0
+568 silly idealTree +-- deep-extend@0.4.1
+568 silly idealTree +-- delayed-stream@1.0.0
+568 silly idealTree +-- delegates@1.0.0
+568 silly idealTree +-- ecc-jsbn@0.1.1
+568 silly idealTree +-- error-ex@1.3.0
+568 silly idealTree +-- es5-ext@0.10.12
+568 silly idealTree +-- es6-iterator@2.0.0
+568 silly idealTree +-- es6-symbol@3.1.0
+568 silly idealTree +-- escape-string-regexp@1.0.5
+568 silly idealTree +-- extend@3.0.0
+568 silly idealTree +-- extsprintf@1.0.2
+568 silly idealTree +-- find-up@1.1.2
+568 silly idealTree +-- forever-agent@0.6.1
+568 silly idealTree +-- form-data@2.1.2
+568 silly idealTree +-- fs.realpath@1.0.0
+568 silly idealTree +-- fstream-ignore@1.0.5
+568 silly idealTree +-- fstream@1.0.10
+568 silly idealTree +-- gauge@2.6.0
+568 silly idealTree +-- gaze@1.1.2
+568 silly idealTree +-- generate-function@2.0.0
+568 silly idealTree +-- generate-object-property@1.2.0
+568 silly idealTree +-- get-caller-file@1.0.2
+568 silly idealTree +-- get-stdin@4.0.1
+568 silly idealTree +-- getpass@0.1.6
+568 silly idealTree | `-- assert-plus@1.0.0
+568 silly idealTree +-- glob@7.1.1
+568 silly idealTree +-- globule@1.1.0
+568 silly idealTree +-- graceful-fs@4.1.11
+568 silly idealTree +-- graceful-readlink@1.0.1
+568 silly idealTree +-- har-validator@2.0.6
+568 silly idealTree +-- has-ansi@2.0.0
+568 silly idealTree +-- has-color@0.1.7
+568 silly idealTree +-- has-unicode@2.0.1
+568 silly idealTree +-- hawk@3.1.3
+568 silly idealTree +-- hoek@2.16.3
+568 silly idealTree +-- hosted-git-info@2.1.5
+568 silly idealTree +-- http-signature@1.1.1
+568 silly idealTree +-- in-publish@2.0.0
+568 silly idealTree +-- indent-string@2.1.0
+568 silly idealTree +-- inflight@1.0.6
+568 silly idealTree +-- inherits@2.0.3
+568 silly idealTree +-- ini@1.3.4
+568 silly idealTree +-- invert-kv@1.0.0
+568 silly idealTree +-- is-arrayish@0.2.1
+568 silly idealTree +-- is-builtin-module@1.0.0
+568 silly idealTree +-- is-finite@1.0.2
+568 silly idealTree +-- is-fullwidth-code-point@1.0.0
+568 silly idealTree +-- is-my-json-valid@2.15.0
+568 silly idealTree +-- is-property@1.0.2
+568 silly idealTree +-- is-typedarray@1.0.0
+568 silly idealTree +-- is-utf8@0.2.1
+568 silly idealTree +-- isarray@1.0.0
+568 silly idealTree +-- isexe@1.1.2
+568 silly idealTree +-- isstream@0.1.2
+568 silly idealTree +-- jodid25519@1.0.2
+568 silly idealTree +-- jsbn@0.1.0
+568 silly idealTree +-- json-schema@0.2.3
+568 silly idealTree +-- json-stringify-safe@5.0.1
+568 silly idealTree +-- jsonpointer@4.0.1
+568 silly idealTree +-- jsprim@1.3.1
+568 silly idealTree +-- lcid@1.0.0
+568 silly idealTree +-- load-json-file@1.1.0
+568 silly idealTree +-- lodash.assign@4.2.0
+568 silly idealTree +-- lodash.clonedeep@4.5.0
+568 silly idealTree +-- lodash.mergewith@4.6.0
+568 silly idealTree +-- lodash@4.16.6
+568 silly idealTree +-- loud-rejection@1.6.0
+568 silly idealTree +-- lru-cache@4.0.2
+568 silly idealTree +-- map-obj@1.0.1
+568 silly idealTree +-- meow@3.7.0
+568 silly idealTree +-- meteor-node-stubs@0.2.4
+568 silly idealTree | +-- asn1.js@4.9.0
+568 silly idealTree | +-- assert@1.4.1
+568 silly idealTree | +-- base64-js@1.2.0
+568 silly idealTree | +-- Base64@0.2.1
+568 silly idealTree | +-- bn.js@4.11.6
+568 silly idealTree | +-- brorand@1.0.6
+568 silly idealTree | +-- browserify-aes@1.0.6
+568 silly idealTree | +-- browserify-cipher@1.0.0
+568 silly idealTree | +-- browserify-des@1.0.0
+568 silly idealTree | +-- browserify-rsa@4.0.1
+568 silly idealTree | +-- browserify-sign@4.0.0
+568 silly idealTree | +-- browserify-zlib@0.1.4
+568 silly idealTree | +-- buffer-shims@1.0.0
+568 silly idealTree | +-- buffer-xor@1.0.3
+568 silly idealTree | +-- buffer@4.9.1
+568 silly idealTree | +-- cipher-base@1.0.3
+568 silly idealTree | +-- console-browserify@1.1.0
+568 silly idealTree | +-- constants-browserify@1.0.0
+568 silly idealTree | +-- core-util-is@1.0.2
+568 silly idealTree | +-- create-ecdh@4.0.0
+568 silly idealTree | +-- create-hash@1.1.2
+568 silly idealTree | +-- create-hmac@1.1.4
+568 silly idealTree | +-- crypto-browserify@3.11.0
+568 silly idealTree | +-- date-now@0.1.4
+568 silly idealTree | +-- des.js@1.0.0
+568 silly idealTree | +-- diffie-hellman@5.0.2
+568 silly idealTree | +-- domain-browser@1.1.7
+568 silly idealTree | +-- elliptic@6.3.2
+568 silly idealTree | +-- events@1.1.1
+568 silly idealTree | +-- evp_bytestokey@1.0.0
+568 silly idealTree | +-- hash.js@1.0.3
+568 silly idealTree | +-- http-browserify@1.7.0
+568 silly idealTree | +-- https-browserify@0.0.1
+568 silly idealTree | +-- ieee754@1.1.8
+568 silly idealTree | +-- indexof@0.0.1
+568 silly idealTree | +-- inherits@2.0.1
+568 silly idealTree | +-- isarray@1.0.0
+568 silly idealTree | +-- miller-rabin@4.0.0
+568 silly idealTree | +-- minimalistic-assert@1.0.0
+568 silly idealTree | +-- os-browserify@0.2.1
+568 silly idealTree | +-- pako@0.2.9
+568 silly idealTree | +-- parse-asn1@5.0.0
+568 silly idealTree | +-- path-browserify@0.0.0
+568 silly idealTree | +-- pbkdf2@3.0.9
+568 silly idealTree | +-- process-nextick-args@1.0.7
+568 silly idealTree | +-- process@0.11.9
+568 silly idealTree | +-- public-encrypt@4.0.0
+568 silly idealTree | +-- punycode@1.4.1
+568 silly idealTree | +-- querystring-es3@0.2.1
+568 silly idealTree | +-- querystring@0.2.0
+568 silly idealTree | +-- randombytes@2.0.3
+568 silly idealTree | +-- readable-stream@2.2.1
+568 silly idealTree | +-- ripemd160@1.0.1
+568 silly idealTree | +-- sha.js@2.4.8
+568 silly idealTree | +-- stream-browserify@2.0.1
+568 silly idealTree | +-- string_decoder@0.10.31
+568 silly idealTree | +-- timers-browserify@1.4.2
+568 silly idealTree | +-- tty-browserify@0.0.0
+568 silly idealTree | +-- url@0.11.0
+568 silly idealTree | | `-- punycode@1.3.2
+568 silly idealTree | +-- util-deprecate@1.0.2
+568 silly idealTree | +-- util@0.10.3
+568 silly idealTree | `-- vm-browserify@0.0.4
+568 silly idealTree +-- mime-db@1.25.0
+568 silly idealTree +-- mime-types@2.1.13
+568 silly idealTree +-- minimatch@3.0.3
+568 silly idealTree +-- minimist@1.2.0
+568 silly idealTree +-- mkdirp@0.5.1
+568 silly idealTree | `-- minimist@0.0.8
+568 silly idealTree +-- ms@0.7.2
+568 silly idealTree +-- nan@2.5.0
+568 silly idealTree +-- node-gyp@3.4.0
+568 silly idealTree | `-- npmlog@3.1.2
+568 silly idealTree +-- node-pre-gyp@0.6.32
+568 silly idealTree +-- node-sass@4.1.1
+568 silly idealTree +-- nopt@3.0.6
+568 silly idealTree +-- normalize-package-data@2.3.5
+568 silly idealTree +-- npmlog@4.0.2
+568 silly idealTree | +-- gauge@2.7.2
+568 silly idealTree | `-- supports-color@0.2.0
+568 silly idealTree +-- number-is-nan@1.0.1
+568 silly idealTree +-- oauth-sign@0.8.2
+568 silly idealTree +-- object-assign@4.1.0
+568 silly idealTree +-- once@1.4.0
+568 silly idealTree +-- os-homedir@1.0.2
+568 silly idealTree +-- os-locale@1.4.0
+568 silly idealTree +-- os-tmpdir@1.0.2
+568 silly idealTree +-- osenv@0.1.4
+568 silly idealTree +-- parse-json@2.2.0
+568 silly idealTree +-- path-array@1.0.1
+568 silly idealTree +-- path-exists@2.1.0
+568 silly idealTree +-- path-is-absolute@1.0.1
+568 silly idealTree +-- path-type@1.1.0
+568 silly idealTree +-- pify@2.3.0
+568 silly idealTree +-- pinkie-promise@2.0.1
+568 silly idealTree +-- pinkie@2.0.4
+568 silly idealTree +-- process-nextick-args@1.0.7
+568 silly idealTree +-- pseudomap@1.0.2
+568 silly idealTree +-- punycode@1.4.1
+568 silly idealTree +-- qs@6.3.0
+568 silly idealTree +-- rc@1.1.6
+568 silly idealTree +-- read-pkg-up@1.0.1
+568 silly idealTree +-- read-pkg@1.1.0
+568 silly idealTree +-- readable-stream@2.2.2
+568 silly idealTree +-- redent@1.0.0
+568 silly idealTree +-- regenerator-runtime@0.9.6
+568 silly idealTree +-- repeating@2.0.1
+568 silly idealTree +-- request@2.79.0
+568 silly idealTree +-- require-directory@2.1.1
+568 silly idealTree +-- require-main-filename@1.0.1
+568 silly idealTree +-- rimraf@2.5.4
+568 silly idealTree +-- sass-graph@2.1.2
+568 silly idealTree +-- semver@5.3.0
+568 silly idealTree +-- set-blocking@2.0.0
+568 silly idealTree +-- signal-exit@3.0.2
+568 silly idealTree +-- sntp@1.0.9
+568 silly idealTree +-- spdx-correct@1.0.2
+568 silly idealTree +-- spdx-expression-parse@1.0.4
+568 silly idealTree +-- spdx-license-ids@1.2.2
+568 silly idealTree +-- sshpk@1.10.1
+568 silly idealTree | `-- assert-plus@1.0.0
+568 silly idealTree +-- stdout-stream@1.4.0
+568 silly idealTree +-- string_decoder@0.10.31
+568 silly idealTree +-- string-width@1.0.2
+568 silly idealTree +-- stringstream@0.0.5
+568 silly idealTree +-- strip-ansi@3.0.1
+568 silly idealTree +-- strip-bom@2.0.0
+568 silly idealTree +-- strip-indent@1.0.1
+568 silly idealTree +-- strip-json-comments@1.0.4
+568 silly idealTree +-- supports-color@2.0.0
+568 silly idealTree +-- tar-pack@3.3.0
+568 silly idealTree | +-- debug@2.2.0
+568 silly idealTree | +-- ms@0.7.1
+568 silly idealTree | +-- once@1.3.3
+568 silly idealTree | `-- readable-stream@2.1.5
+568 silly idealTree +-- tar@2.2.1
+568 silly idealTree +-- tough-cookie@2.3.2
+568 silly idealTree +-- trim-newlines@1.0.0
+568 silly idealTree +-- tunnel-agent@0.4.3
+568 silly idealTree +-- tweetnacl@0.14.5
+568 silly idealTree +-- uid-number@0.0.6
+568 silly idealTree +-- util-deprecate@1.0.2
+568 silly idealTree +-- uuid@3.0.1
+568 silly idealTree +-- validate-npm-package-license@3.0.1
+568 silly idealTree +-- verror@1.3.6
+568 silly idealTree +-- which-module@1.0.0
+568 silly idealTree +-- which@1.2.12
+568 silly idealTree +-- wide-align@1.1.0
+568 silly idealTree +-- window-size@0.2.0
+568 silly idealTree +-- wrap-ansi@2.1.0
+568 silly idealTree +-- wrappy@1.0.2
+568 silly idealTree +-- xtend@4.0.1
+568 silly idealTree +-- y18n@3.2.1
+568 silly idealTree +-- yallist@2.0.0
+568 silly idealTree +-- yargs-parser@2.4.1
+568 silly idealTree | `-- camelcase@3.0.0
+568 silly idealTree `-- yargs@4.8.1
+569 silly generateActionsToTake Starting
+570 silly install generateActionsToTake
+571 silly generateActionsToTake Finishing
+572 silly diffTrees action count 14
+573 silly diffTrees add deep-extend@0.4.1
+574 silly diffTrees add fstream-ignore@1.0.5
+575 silly diffTrees add ini@1.3.4
+576 silly diffTrees add strip-json-comments@1.0.4
+577 silly diffTrees add rc@1.1.6
+578 silly diffTrees add ms@0.7.1
+579 silly diffTrees add debug@2.2.0
+580 silly diffTrees add once@1.3.3
+581 silly diffTrees add readable-stream@2.1.5
+582 silly diffTrees add uid-number@0.0.6
+583 silly diffTrees add tar-pack@3.3.0
+584 silly diffTrees add bindings@1.2.1
+585 silly diffTrees add node-pre-gyp@0.6.32
+586 silly diffTrees add bcrypt@1.0.2
+587 silly decomposeActions action count 112
+588 silly decomposeActions fetch deep-extend@0.4.1
+589 silly decomposeActions extract deep-extend@0.4.1
+590 silly decomposeActions test deep-extend@0.4.1
+591 silly decomposeActions preinstall deep-extend@0.4.1
+592 silly decomposeActions build deep-extend@0.4.1
+593 silly decomposeActions install deep-extend@0.4.1
+594 silly decomposeActions postinstall deep-extend@0.4.1
+595 silly decomposeActions finalize deep-extend@0.4.1
+596 silly decomposeActions fetch fstream-ignore@1.0.5
+597 silly decomposeActions extract fstream-ignore@1.0.5
+598 silly decomposeActions test fstream-ignore@1.0.5
+599 silly decomposeActions preinstall fstream-ignore@1.0.5
+600 silly decomposeActions build fstream-ignore@1.0.5
+601 silly decomposeActions install fstream-ignore@1.0.5
+602 silly decomposeActions postinstall fstream-ignore@1.0.5
+603 silly decomposeActions finalize fstream-ignore@1.0.5
+604 silly decomposeActions fetch ini@1.3.4
+605 silly decomposeActions extract ini@1.3.4
+606 silly decomposeActions test ini@1.3.4
+607 silly decomposeActions preinstall ini@1.3.4
+608 silly decomposeActions build ini@1.3.4
+609 silly decomposeActions install ini@1.3.4
+610 silly decomposeActions postinstall ini@1.3.4
+611 silly decomposeActions finalize ini@1.3.4
+612 silly decomposeActions fetch strip-json-comments@1.0.4
+613 silly decomposeActions extract strip-json-comments@1.0.4
+614 silly decomposeActions test strip-json-comments@1.0.4
+615 silly decomposeActions preinstall strip-json-comments@1.0.4
+616 silly decomposeActions build strip-json-comments@1.0.4
+617 silly decomposeActions install strip-json-comments@1.0.4
+618 silly decomposeActions postinstall strip-json-comments@1.0.4
+619 silly decomposeActions finalize strip-json-comments@1.0.4
+620 silly decomposeActions fetch rc@1.1.6
+621 silly decomposeActions extract rc@1.1.6
+622 silly decomposeActions test rc@1.1.6
+623 silly decomposeActions preinstall rc@1.1.6
+624 silly decomposeActions build rc@1.1.6
+625 silly decomposeActions install rc@1.1.6
+626 silly decomposeActions postinstall rc@1.1.6
+627 silly decomposeActions finalize rc@1.1.6
+628 silly decomposeActions fetch ms@0.7.1
+629 silly decomposeActions extract ms@0.7.1
+630 silly decomposeActions test ms@0.7.1
+631 silly decomposeActions preinstall ms@0.7.1
+632 silly decomposeActions build ms@0.7.1
+633 silly decomposeActions install ms@0.7.1
+634 silly decomposeActions postinstall ms@0.7.1
+635 silly decomposeActions finalize ms@0.7.1
+636 silly decomposeActions fetch debug@2.2.0
+637 silly decomposeActions extract debug@2.2.0
+638 silly decomposeActions test debug@2.2.0
+639 silly decomposeActions preinstall debug@2.2.0
+640 silly decomposeActions build debug@2.2.0
+641 silly decomposeActions install debug@2.2.0
+642 silly decomposeActions postinstall debug@2.2.0
+643 silly decomposeActions finalize debug@2.2.0
+644 silly decomposeActions fetch once@1.3.3
+645 silly decomposeActions extract once@1.3.3
+646 silly decomposeActions test once@1.3.3
+647 silly decomposeActions preinstall once@1.3.3
+648 silly decomposeActions build once@1.3.3
+649 silly decomposeActions install once@1.3.3
+650 silly decomposeActions postinstall once@1.3.3
+651 silly decomposeActions finalize once@1.3.3
+652 silly decomposeActions fetch readable-stream@2.1.5
+653 silly decomposeActions extract readable-stream@2.1.5
+654 silly decomposeActions test readable-stream@2.1.5
+655 silly decomposeActions preinstall readable-stream@2.1.5
+656 silly decomposeActions build readable-stream@2.1.5
+657 silly decomposeActions install readable-stream@2.1.5
+658 silly decomposeActions postinstall readable-stream@2.1.5
+659 silly decomposeActions finalize readable-stream@2.1.5
+660 silly decomposeActions fetch uid-number@0.0.6
+661 silly decomposeActions extract uid-number@0.0.6
+662 silly decomposeActions test uid-number@0.0.6
+663 silly decomposeActions preinstall uid-number@0.0.6
+664 silly decomposeActions build uid-number@0.0.6
+665 silly decomposeActions install uid-number@0.0.6
+666 silly decomposeActions postinstall uid-number@0.0.6
+667 silly decomposeActions finalize uid-number@0.0.6
+668 silly decomposeActions fetch tar-pack@3.3.0
+669 silly decomposeActions extract tar-pack@3.3.0
+670 silly decomposeActions test tar-pack@3.3.0
+671 silly decomposeActions preinstall tar-pack@3.3.0
+672 silly decomposeActions build tar-pack@3.3.0
+673 silly decomposeActions install tar-pack@3.3.0
+674 silly decomposeActions postinstall tar-pack@3.3.0
+675 silly decomposeActions finalize tar-pack@3.3.0
+676 silly decomposeActions fetch bindings@1.2.1
+677 silly decomposeActions extract bindings@1.2.1
+678 silly decomposeActions test bindings@1.2.1
+679 silly decomposeActions preinstall bindings@1.2.1
+680 silly decomposeActions build bindings@1.2.1
+681 silly decomposeActions install bindings@1.2.1
+682 silly decomposeActions postinstall bindings@1.2.1
+683 silly decomposeActions finalize bindings@1.2.1
+684 silly decomposeActions fetch node-pre-gyp@0.6.32
+685 silly decomposeActions extract node-pre-gyp@0.6.32
+686 silly decomposeActions test node-pre-gyp@0.6.32
+687 silly decomposeActions preinstall node-pre-gyp@0.6.32
+688 silly decomposeActions build node-pre-gyp@0.6.32
+689 silly decomposeActions install node-pre-gyp@0.6.32
+690 silly decomposeActions postinstall node-pre-gyp@0.6.32
+691 silly decomposeActions finalize node-pre-gyp@0.6.32
+692 silly decomposeActions fetch bcrypt@1.0.2
+693 silly decomposeActions extract bcrypt@1.0.2
+694 silly decomposeActions test bcrypt@1.0.2
+695 silly decomposeActions preinstall bcrypt@1.0.2
+696 silly decomposeActions build bcrypt@1.0.2
+697 silly decomposeActions install bcrypt@1.0.2
+698 silly decomposeActions postinstall bcrypt@1.0.2
+699 silly decomposeActions finalize bcrypt@1.0.2
+700 silly runTopLevelLifecycles Starting
+701 silly executeActions Starting
+702 silly install executeActions
+703 silly doSerial global-install 0
+704 silly doParallel fetch 14
+705 verbose correctMkdir C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\_locks correctMkdir not in flight; initializing
+706 verbose lock using C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\_locks\staging-5ffdd6ecffc265f6.lock for C:\crud-meteor\node_modules\.staging
+707 silly doParallel extract 14
+708 silly extract deep-extend@0.4.1
+709 silly extract fstream-ignore@1.0.5
+710 silly extract ini@1.3.4
+711 silly extract strip-json-comments@1.0.4
+712 silly extract rc@1.1.6
+713 silly extract ms@0.7.1
+714 silly extract debug@2.2.0
+715 silly extract once@1.3.3
+716 silly extract readable-stream@2.1.5
+717 silly extract uid-number@0.0.6
+718 silly extract tar-pack@3.3.0
+719 silly extract bindings@1.2.1
+720 silly extract node-pre-gyp@0.6.32
+721 silly extract bcrypt@1.0.2
+722 verbose unbuild node_modules\.staging\ini-606017f1
+723 verbose unbuild node_modules\.staging\fstream-ignore-fd310e72
+724 verbose unbuild node_modules\.staging\deep-extend-99678056
+725 verbose unbuild node_modules\.staging\readable-stream-78553e04
+726 verbose unbuild node_modules\.staging\ms-f2efb678
+727 verbose unbuild node_modules\.staging\once-33326b59
+728 verbose unbuild node_modules\.staging\tar-pack-b973f4e4
+729 verbose unbuild node_modules\.staging\debug-56002050
+730 verbose unbuild node_modules\.staging\bcrypt-7c9c4365
+731 verbose unbuild node_modules\.staging\bindings-fe0f0eb4
+732 verbose unbuild node_modules\.staging\uid-number-4cd8abc7
+733 verbose unbuild node_modules\.staging\rc-2f8222ef
+734 verbose unbuild node_modules\.staging\strip-json-comments-e8c1b492
+735 verbose unbuild node_modules\.staging\node-pre-gyp-839dfe0f
+736 silly gentlyRm C:\crud-meteor\node_modules\.staging\ini-606017f1 is being purged from base C:\crud-meteor
+737 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\ini-606017f1
+738 silly gentlyRm C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72 is being purged from base C:\crud-meteor
+739 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72
+740 silly gentlyRm C:\crud-meteor\node_modules\.staging\deep-extend-99678056 is being purged from base C:\crud-meteor
+741 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\deep-extend-99678056
+742 silly gentlyRm C:\crud-meteor\node_modules\.staging\readable-stream-78553e04 is being purged from base C:\crud-meteor
+743 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\readable-stream-78553e04
+744 silly gentlyRm C:\crud-meteor\node_modules\.staging\ms-f2efb678 is being purged from base C:\crud-meteor
+745 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\ms-f2efb678
+746 silly gentlyRm C:\crud-meteor\node_modules\.staging\once-33326b59 is being purged from base C:\crud-meteor
+747 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\once-33326b59
+748 silly gentlyRm C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4 is being purged from base C:\crud-meteor
+749 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4
+750 silly gentlyRm C:\crud-meteor\node_modules\.staging\debug-56002050 is being purged from base C:\crud-meteor
+751 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\debug-56002050
+752 silly gentlyRm C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365 is being purged from base C:\crud-meteor
+753 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365
+754 silly gentlyRm C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4 is being purged from base C:\crud-meteor
+755 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4
+756 silly gentlyRm C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7 is being purged from base C:\crud-meteor
+757 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7
+758 silly gentlyRm C:\crud-meteor\node_modules\.staging\rc-2f8222ef is being purged from base C:\crud-meteor
+759 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\rc-2f8222ef
+760 silly gentlyRm C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492 is being purged from base C:\crud-meteor
+761 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492
+762 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\ini\1.3.4\package.tgz
+763 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\ini-606017f1
+764 silly gentlyRm C:\crud-meteor\node_modules\.staging\ini-606017f1 is being purged
+765 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\ini-606017f1
+766 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\fstream-ignore\1.0.5\package.tgz
+767 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72
+768 silly gentlyRm C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72 is being purged
+769 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72
+770 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\deep-extend\0.4.1\package.tgz
+771 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\deep-extend-99678056
+772 silly gentlyRm C:\crud-meteor\node_modules\.staging\deep-extend-99678056 is being purged
+773 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\deep-extend-99678056
+774 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\readable-stream\2.1.5\package.tgz
+775 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\readable-stream-78553e04
+776 silly gentlyRm C:\crud-meteor\node_modules\.staging\readable-stream-78553e04 is being purged
+777 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\readable-stream-78553e04
+778 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\ms\0.7.1\package.tgz
+779 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\ms-f2efb678
+780 silly gentlyRm C:\crud-meteor\node_modules\.staging\ms-f2efb678 is being purged
+781 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\ms-f2efb678
+782 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\once\1.3.3\package.tgz
+783 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\once-33326b59
+784 silly gentlyRm C:\crud-meteor\node_modules\.staging\once-33326b59 is being purged
+785 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\once-33326b59
+786 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\tar-pack\3.3.0\package.tgz
+787 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4
+788 silly gentlyRm C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4 is being purged
+789 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4
+790 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\debug\2.2.0\package.tgz
+791 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\debug-56002050
+792 silly gentlyRm C:\crud-meteor\node_modules\.staging\debug-56002050 is being purged
+793 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\debug-56002050
+794 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\bcrypt\1.0.2\package.tgz
+795 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365
+796 silly gentlyRm C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365 is being purged
+797 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365
+798 silly gentlyRm C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f is being purged from base C:\crud-meteor
+799 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f
+800 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\bindings\1.2.1\package.tgz
+801 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4
+802 silly gentlyRm C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4 is being purged
+803 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4
+804 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\uid-number\0.0.6\package.tgz
+805 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7
+806 silly gentlyRm C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7 is being purged
+807 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7
+808 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\rc\1.1.6\package.tgz
+809 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\rc-2f8222ef
+810 silly gentlyRm C:\crud-meteor\node_modules\.staging\rc-2f8222ef is being purged
+811 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\rc-2f8222ef
+812 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\strip-json-comments\1.0.4\package.tgz
+813 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492
+814 silly gentlyRm C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492 is being purged
+815 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492
+816 silly gunzTarPerm modes [ '777', '666' ]
+817 silly gunzTarPerm modes [ '777', '666' ]
+818 silly gunzTarPerm modes [ '777', '666' ]
+819 silly gunzTarPerm modes [ '777', '666' ]
+820 silly gunzTarPerm modes [ '777', '666' ]
+821 silly gunzTarPerm modes [ '777', '666' ]
+822 silly gunzTarPerm modes [ '777', '666' ]
+823 silly gunzTarPerm modes [ '777', '666' ]
+824 silly gunzTarPerm modes [ '777', '666' ]
+825 verbose tar unpack C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\node-pre-gyp\0.6.32\package.tgz
+826 verbose tar unpacking to C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f
+827 silly gentlyRm C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f is being purged
+828 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f
+829 silly gunzTarPerm modes [ '777', '666' ]
+830 silly gunzTarPerm modes [ '777', '666' ]
+831 silly gunzTarPerm modes [ '777', '666' ]
+832 silly gunzTarPerm modes [ '777', '666' ]
+833 silly gunzTarPerm modes [ '777', '666' ]
+834 silly gunzTarPerm extractEntry package.json
+835 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+836 silly gunzTarPerm extractEntry package.json
+837 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+838 silly gunzTarPerm extractEntry package.json
+839 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+840 silly gunzTarPerm extractEntry package.json
+841 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+842 silly gunzTarPerm extractEntry package.json
+843 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+844 silly gunzTarPerm extractEntry package.json
+845 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+846 silly gunzTarPerm extractEntry package.json
+847 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+848 silly gunzTarPerm extractEntry package.json
+849 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+850 silly gunzTarPerm extractEntry package.json
+851 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+852 silly gunzTarPerm extractEntry package.json
+853 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+854 silly gunzTarPerm extractEntry package.json
+855 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+856 silly gunzTarPerm extractEntry package.json
+857 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+858 silly gunzTarPerm extractEntry package.json
+859 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+860 silly gunzTarPerm extractEntry package.json
+861 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+862 silly gunzTarPerm extractEntry README.md
+863 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+864 silly gunzTarPerm extractEntry LICENSE
+865 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+866 silly gunzTarPerm extractEntry README.md
+867 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+868 silly gunzTarPerm extractEntry LICENSE
+869 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+870 silly gunzTarPerm extractEntry README.md
+871 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+872 silly gunzTarPerm extractEntry LICENSE
+873 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+874 silly gunzTarPerm extractEntry README.md
+875 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+876 silly gunzTarPerm extractEntry LICENSE
+877 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+878 silly gunzTarPerm extractEntry .npmignore
+879 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+880 silly gunzTarPerm extractEntry README.md
+881 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+882 silly gunzTarPerm extractEntry .npmignore
+883 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+884 silly gunzTarPerm extractEntry README.md
+885 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+886 silly gunzTarPerm extractEntry .npmignore
+887 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+888 silly gunzTarPerm extractEntry node.js
+889 silly gunzTarPerm modified mode [ 'node.js', 420, 438 ]
+890 silly gunzTarPerm extractEntry .npmignore
+891 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+892 silly gunzTarPerm extractEntry README.md
+893 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+894 silly gunzTarPerm extractEntry .npmignore
+895 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+896 silly gunzTarPerm extractEntry README.md
+897 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+898 silly gunzTarPerm extractEntry README.md
+899 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+900 silly gunzTarPerm extractEntry bindings.js
+901 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+902 silly gunzTarPerm extractEntry README.md
+903 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+904 silly gunzTarPerm extractEntry LICENSE
+905 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+906 silly gunzTarPerm extractEntry .npmignore
+907 silly gunzTarPerm modified mode [ '.npmignore', 436, 438 ]
+908 silly gunzTarPerm extractEntry README.md
+909 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+910 silly gunzTarPerm extractEntry strip-json-comments.js
+911 silly gunzTarPerm modified mode [ 'strip-json-comments.js', 420, 438 ]
+912 silly gunzTarPerm extractEntry cli.js
+913 silly gunzTarPerm modified mode [ 'cli.js', 420, 438 ]
+914 silly gunzTarPerm extractEntry README.md
+915 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+916 silly gunzTarPerm extractEntry LICENSE
+917 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+918 silly gunzTarPerm extractEntry LICENSE
+919 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+920 silly gunzTarPerm extractEntry index.js
+921 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+922 silly gunzTarPerm extractEntry ini.js
+923 silly gunzTarPerm modified mode [ 'ini.js', 420, 438 ]
+924 silly gunzTarPerm extractEntry ignore.js
+925 silly gunzTarPerm modified mode [ 'ignore.js', 420, 438 ]
+926 silly gunzTarPerm extractEntry LICENSE
+927 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+928 silly gunzTarPerm extractEntry writable.js
+929 silly gunzTarPerm modified mode [ 'writable.js', 420, 438 ]
+930 silly gunzTarPerm extractEntry get-uid-gid.js
+931 silly gunzTarPerm modified mode [ 'get-uid-gid.js', 493, 511 ]
+932 silly gunzTarPerm extractEntry uid-number.js
+933 silly gunzTarPerm modified mode [ 'uid-number.js', 420, 438 ]
+934 silly gunzTarPerm extractEntry index.js
+935 silly gunzTarPerm modified mode [ 'index.js', 436, 438 ]
+936 silly gunzTarPerm extractEntry CHANGELOG.md
+937 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+938 silly gunzTarPerm extractEntry once.js
+939 silly gunzTarPerm modified mode [ 'once.js', 420, 438 ]
+940 silly gunzTarPerm extractEntry debug.js
+941 silly gunzTarPerm modified mode [ 'debug.js', 420, 438 ]
+942 silly gunzTarPerm extractEntry browser.js
+943 silly gunzTarPerm modified mode [ 'browser.js', 420, 438 ]
+944 silly gunzTarPerm extractEntry LICENSE
+945 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+946 silly gunzTarPerm extractEntry LICENSE
+947 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+948 silly gunzTarPerm extractEntry index.js
+949 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+950 silly gunzTarPerm extractEntry browser.js
+951 silly gunzTarPerm modified mode [ 'browser.js', 436, 438 ]
+952 silly gunzTarPerm extractEntry index.js
+953 silly gunzTarPerm modified mode [ 'index.js', 509, 511 ]
+954 silly gunzTarPerm extractEntry appveyor.yml
+955 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+956 silly gunzTarPerm extractEntry bin/node-pre-gyp
+957 silly gunzTarPerm modified mode [ 'bin/node-pre-gyp', 493, 511 ]
+958 silly gunzTarPerm extractEntry bin/node-pre-gyp.cmd
+959 silly gunzTarPerm modified mode [ 'bin/node-pre-gyp.cmd', 420, 438 ]
+960 silly gunzTarPerm extractEntry license
+961 silly gunzTarPerm modified mode [ 'license', 420, 438 ]
+962 silly gunzTarPerm extractEntry readme.md
+963 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+964 silly gunzTarPerm extractEntry lib/build.js
+965 silly gunzTarPerm modified mode [ 'lib/build.js', 420, 438 ]
+966 silly gunzTarPerm extractEntry Readme.md
+967 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+968 silly gunzTarPerm extractEntry transform.js
+969 silly gunzTarPerm modified mode [ 'transform.js', 420, 438 ]
+970 silly gunzTarPerm extractEntry readable.js
+971 silly gunzTarPerm modified mode [ 'readable.js', 420, 438 ]
+972 silly gunzTarPerm extractEntry History.md
+973 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+974 silly gunzTarPerm extractEntry bcrypt.js
+975 silly gunzTarPerm modified mode [ 'bcrypt.js', 420, 438 ]
+976 silly gunzTarPerm extractEntry Makefile
+977 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+978 silly gunzTarPerm extractEntry .travis.yml
+979 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+980 silly gunzTarPerm extractEntry lib/deep-extend.js
+981 silly gunzTarPerm modified mode [ 'lib/deep-extend.js', 436, 438 ]
+982 silly gunzTarPerm extractEntry LICENSE.APACHE2
+983 silly gunzTarPerm modified mode [ 'LICENSE.APACHE2', 436, 438 ]
+984 silly gunzTarPerm extractEntry LICENSE.BSD
+985 silly gunzTarPerm modified mode [ 'LICENSE.BSD', 436, 438 ]
+986 silly gunzTarPerm extractEntry lib/install.js
+987 silly gunzTarPerm modified mode [ 'lib/install.js', 420, 438 ]
+988 silly gunzTarPerm extractEntry lib/node-pre-gyp.js
+989 silly gunzTarPerm modified mode [ 'lib/node-pre-gyp.js', 420, 438 ]
+990 silly gunzTarPerm extractEntry passthrough.js
+991 silly gunzTarPerm modified mode [ 'passthrough.js', 420, 438 ]
+992 silly gunzTarPerm extractEntry duplex.js
+993 silly gunzTarPerm modified mode [ 'duplex.js', 420, 438 ]
+994 silly gunzTarPerm extractEntry test/index.js
+995 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+996 silly gunzTarPerm extractEntry test/fixtures/packed-file.txt
+997 silly gunzTarPerm modified mode [ 'test/fixtures/packed-file.txt', 420, 438 ]
+998 silly gunzTarPerm extractEntry .travis.yml
+999 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1000 silly gunzTarPerm extractEntry appveyor.yml
+1001 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+1002 silly gunzTarPerm extractEntry bower.json
+1003 silly gunzTarPerm modified mode [ 'bower.json', 420, 438 ]
+1004 silly gunzTarPerm extractEntry .jshintrc
+1005 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+1006 silly gunzTarPerm extractEntry LICENSE.MIT
+1007 silly gunzTarPerm modified mode [ 'LICENSE.MIT', 436, 438 ]
+1008 silly gunzTarPerm extractEntry lib/utils.js
+1009 silly gunzTarPerm modified mode [ 'lib/utils.js', 436, 438 ]
+1010 silly gunzTarPerm extractEntry test/ini.js
+1011 silly gunzTarPerm modified mode [ 'test/ini.js', 436, 438 ]
+1012 silly gunzTarPerm extractEntry test/nested-env-vars.js
+1013 silly gunzTarPerm modified mode [ 'test/nested-env-vars.js', 436, 438 ]
+1014 silly gunzTarPerm extractEntry test/test.js
+1015 silly gunzTarPerm modified mode [ 'test/test.js', 436, 438 ]
+1016 silly gunzTarPerm extractEntry lib/package.js
+1017 silly gunzTarPerm modified mode [ 'lib/package.js', 420, 438 ]
+1018 silly gunzTarPerm extractEntry lib/pre-binding.js
+1019 silly gunzTarPerm modified mode [ 'lib/pre-binding.js', 420, 438 ]
+1020 silly gunzTarPerm extractEntry doc/stream.md
+1021 silly gunzTarPerm modified mode [ 'doc/stream.md', 420, 438 ]
+1022 silly gunzTarPerm extractEntry doc/wg-meetings/2015-01-30.md
+1023 silly gunzTarPerm modified mode [ 'doc/wg-meetings/2015-01-30.md', 420, 438 ]
+1024 silly gunzTarPerm extractEntry lib/_stream_duplex.js
+1025 silly gunzTarPerm modified mode [ 'lib/_stream_duplex.js', 420, 438 ]
+1026 silly gunzTarPerm extractEntry lib/_stream_passthrough.js
+1027 silly gunzTarPerm modified mode [ 'lib/_stream_passthrough.js', 420, 438 ]
+1028 silly gunzTarPerm extractEntry lib/_stream_readable.js
+1029 silly gunzTarPerm modified mode [ 'lib/_stream_readable.js', 420, 438 ]
+1030 silly gunzTarPerm extractEntry lib/_stream_transform.js
+1031 silly gunzTarPerm modified mode [ 'lib/_stream_transform.js', 420, 438 ]
+1032 silly gunzTarPerm extractEntry lib/_stream_writable.js
+1033 silly gunzTarPerm modified mode [ 'lib/_stream_writable.js', 420, 438 ]
+1034 silly gunzTarPerm extractEntry lib/internal/streams/BufferList.js
+1035 silly gunzTarPerm modified mode [ 'lib/internal/streams/BufferList.js', 420, 438 ]
+1036 silly gunzTarPerm extractEntry .travis.yml
+1037 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1038 silly gunzTarPerm extractEntry test/fixtures/packed.tar
+1039 silly gunzTarPerm modified mode [ 'test/fixtures/packed.tar', 420, 438 ]
+1040 silly gunzTarPerm extractEntry test/fixtures/packed.tar.gz
+1041 silly gunzTarPerm modified mode [ 'test/fixtures/packed.tar.gz', 420, 438 ]
+1042 silly gunzTarPerm extractEntry CHANGELOG.md
+1043 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+1044 silly gunzTarPerm extractEntry binding.gyp
+1045 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+1046 silly gunzTarPerm extractEntry component.json
+1047 silly gunzTarPerm modified mode [ 'component.json', 420, 438 ]
+1048 silly gunzTarPerm extractEntry Makefile
+1049 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+1050 silly gunzTarPerm extractEntry lib/info.js
+1051 silly gunzTarPerm modified mode [ 'lib/info.js', 420, 438 ]
+1052 silly gunzTarPerm extractEntry lib/rebuild.js
+1053 silly gunzTarPerm modified mode [ 'lib/rebuild.js', 420, 438 ]
+1054 silly gentlyRm C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4\node_modules is being purged
+1055 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4\node_modules
+1056 silly gunzTarPerm extractEntry test/fixtures/to-pack/bar.txt
+1057 silly gunzTarPerm modified mode [ 'test/fixtures/to-pack/bar.txt', 420, 438 ]
+1058 silly gunzTarPerm extractEntry test/fixtures/to-pack/foo.txt
+1059 silly gunzTarPerm modified mode [ 'test/fixtures/to-pack/foo.txt', 420, 438 ]
+1060 silly gentlyRm C:\crud-meteor\node_modules\.staging\ini-606017f1\node_modules is being purged
+1061 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\ini-606017f1\node_modules
+1062 silly gunzTarPerm extractEntry examples/async_compare.js
+1063 silly gunzTarPerm modified mode [ 'examples/async_compare.js', 420, 438 ]
+1064 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+1065 silly gunzTarPerm modified mode [ 'examples/forever_gen_salt.js', 420, 438 ]
+1066 silly gentlyRm C:\crud-meteor\node_modules\.staging\once-33326b59\node_modules is being purged
+1067 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\once-33326b59\node_modules
+1068 silly gunzTarPerm extractEntry History.md
+1069 silly gunzTarPerm modified mode [ 'History.md', 420, 438 ]
+1070 silly gentlyRm C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72\node_modules is being purged
+1071 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72\node_modules
+1072 silly gunzTarPerm extractEntry lib/reinstall.js
+1073 silly gunzTarPerm modified mode [ 'lib/reinstall.js', 420, 438 ]
+1074 silly gunzTarPerm extractEntry lib/reveal.js
+1075 silly gunzTarPerm modified mode [ 'lib/reveal.js', 420, 438 ]
+1076 silly gunzTarPerm extractEntry lib/promises.js
+1077 silly gunzTarPerm modified mode [ 'lib/promises.js', 420, 438 ]
+1078 silly gunzTarPerm extractEntry test/async.js
+1079 silly gunzTarPerm modified mode [ 'test/async.js', 420, 438 ]
+1080 silly gentlyRm C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7\node_modules is being purged
+1081 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7\node_modules
+1082 silly gunzTarPerm extractEntry lib/testbinary.js
+1083 silly gunzTarPerm modified mode [ 'lib/testbinary.js', 420, 438 ]
+1084 silly gunzTarPerm extractEntry lib/testpackage.js
+1085 silly gunzTarPerm modified mode [ 'lib/testpackage.js', 420, 438 ]
+1086 silly gentlyRm C:\crud-meteor\node_modules\.staging\ms-f2efb678\node_modules is being purged
+1087 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\ms-f2efb678\node_modules
+1088 silly gunzTarPerm extractEntry test/promise.js
+1089 silly gunzTarPerm modified mode [ 'test/promise.js', 420, 438 ]
+1090 silly gunzTarPerm extractEntry test/repetitions.js
+1091 silly gunzTarPerm modified mode [ 'test/repetitions.js', 420, 438 ]
+1092 silly gentlyRm C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492\node_modules is being purged
+1093 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492\node_modules
+1094 silly gentlyRm C:\crud-meteor\node_modules\.staging\deep-extend-99678056\node_modules is being purged
+1095 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\deep-extend-99678056\node_modules
+1096 silly gunzTarPerm extractEntry test/sync.js
+1097 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+1098 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+1099 silly gunzTarPerm modified mode [ 'ISSUE_TEMPLATE.md', 420, 438 ]
+1100 silly gunzTarPerm extractEntry lib/configure.js
+1101 silly gunzTarPerm modified mode [ 'lib/configure.js', 420, 438 ]
+1102 silly gunzTarPerm extractEntry lib/unpublish.js
+1103 silly gunzTarPerm modified mode [ 'lib/unpublish.js', 420, 438 ]
+1104 silly gunzTarPerm extractEntry src/bcrypt.cc
+1105 silly gunzTarPerm modified mode [ 'src/bcrypt.cc', 420, 438 ]
+1106 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+1107 silly gunzTarPerm modified mode [ 'src/bcrypt_node.cc', 420, 438 ]
+1108 silly gunzTarPerm extractEntry lib/clean.js
+1109 silly gunzTarPerm modified mode [ 'lib/clean.js', 420, 438 ]
+1110 silly gunzTarPerm extractEntry lib/publish.js
+1111 silly gunzTarPerm modified mode [ 'lib/publish.js', 420, 438 ]
+1112 silly gunzTarPerm extractEntry src/blowfish.cc
+1113 silly gunzTarPerm modified mode [ 'src/blowfish.cc', 420, 438 ]
+1114 silly gunzTarPerm extractEntry src/node_blf.h
+1115 silly gunzTarPerm modified mode [ 'src/node_blf.h', 420, 438 ]
+1116 silly gunzTarPerm extractEntry werker.yml
+1117 silly gunzTarPerm modified mode [ 'werker.yml', 420, 438 ]
+1118 silly gunzTarPerm extractEntry lib/util/compile.js
+1119 silly gunzTarPerm modified mode [ 'lib/util/compile.js', 420, 438 ]
+1120 silly gunzTarPerm extractEntry lib/util/handle_gyp_opts.js
+1121 silly gunzTarPerm modified mode [ 'lib/util/handle_gyp_opts.js', 420, 438 ]
+1122 silly gentlyRm C:\crud-meteor\node_modules\.staging\debug-56002050\node_modules is being purged
+1123 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\debug-56002050\node_modules
+1124 silly gentlyRm C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4\node_modules is being purged
+1125 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4\node_modules
+1126 silly gunzTarPerm extractEntry lib/util/s3_setup.js
+1127 silly gunzTarPerm modified mode [ 'lib/util/s3_setup.js', 420, 438 ]
+1128 silly gunzTarPerm extractEntry lib/util/versioning.js
+1129 silly gunzTarPerm modified mode [ 'lib/util/versioning.js', 420, 438 ]
+1130 silly gunzTarPerm extractEntry lib/util/abi_crosswalk.json
+1131 silly gunzTarPerm modified mode [ 'lib/util/abi_crosswalk.json', 420, 438 ]
+1132 silly gunzTarPerm extractEntry lib/util/nw-pre-gyp/package.json
+1133 silly gunzTarPerm modified mode [ 'lib/util/nw-pre-gyp/package.json', 420, 438 ]
+1134 silly gentlyRm C:\crud-meteor\node_modules\.staging\rc-2f8222ef\node_modules is being purged
+1135 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\rc-2f8222ef\node_modules
+1136 silly gunzTarPerm extractEntry lib/util/nw-pre-gyp/index.html
+1137 silly gunzTarPerm modified mode [ 'lib/util/nw-pre-gyp/index.html', 420, 438 ]
+1138 silly gunzTarPerm extractEntry CHANGELOG.md
+1139 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+1140 silly gentlyRm C:\crud-meteor\node_modules\.staging\readable-stream-78553e04\node_modules is being purged
+1141 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\readable-stream-78553e04\node_modules
+1142 silly gentlyRm C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365\node_modules is being purged
+1143 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365\node_modules
+1144 silly gentlyRm C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f\node_modules is being purged
+1145 verbose gentlyRm don't care about contents; nuking C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f\node_modules
+1146 silly doParallel preinstall 14
+1147 silly preinstall deep-extend@0.4.1 C:\crud-meteor\node_modules\.staging\deep-extend-99678056
+1148 info lifecycle deep-extend@0.4.1~preinstall: deep-extend@0.4.1
+1149 silly preinstall fstream-ignore@1.0.5 C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72
+1150 info lifecycle fstream-ignore@1.0.5~preinstall: fstream-ignore@1.0.5
+1151 silly preinstall ini@1.3.4 C:\crud-meteor\node_modules\.staging\ini-606017f1
+1152 info lifecycle ini@1.3.4~preinstall: ini@1.3.4
+1153 silly preinstall strip-json-comments@1.0.4 C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492
+1154 info lifecycle strip-json-comments@1.0.4~preinstall: strip-json-comments@1.0.4
+1155 silly preinstall rc@1.1.6 C:\crud-meteor\node_modules\.staging\rc-2f8222ef
+1156 info lifecycle rc@1.1.6~preinstall: rc@1.1.6
+1157 silly preinstall ms@0.7.1 C:\crud-meteor\node_modules\.staging\ms-f2efb678
+1158 info lifecycle ms@0.7.1~preinstall: ms@0.7.1
+1159 silly preinstall debug@2.2.0 C:\crud-meteor\node_modules\.staging\debug-56002050
+1160 info lifecycle debug@2.2.0~preinstall: debug@2.2.0
+1161 silly preinstall once@1.3.3 C:\crud-meteor\node_modules\.staging\once-33326b59
+1162 info lifecycle once@1.3.3~preinstall: once@1.3.3
+1163 silly preinstall readable-stream@2.1.5 C:\crud-meteor\node_modules\.staging\readable-stream-78553e04
+1164 info lifecycle readable-stream@2.1.5~preinstall: readable-stream@2.1.5
+1165 silly preinstall uid-number@0.0.6 C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7
+1166 info lifecycle uid-number@0.0.6~preinstall: uid-number@0.0.6
+1167 silly preinstall tar-pack@3.3.0 C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4
+1168 info lifecycle tar-pack@3.3.0~preinstall: tar-pack@3.3.0
+1169 silly preinstall bindings@1.2.1 C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4
+1170 info lifecycle bindings@1.2.1~preinstall: bindings@1.2.1
+1171 silly preinstall node-pre-gyp@0.6.32 C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f
+1172 info lifecycle node-pre-gyp@0.6.32~preinstall: node-pre-gyp@0.6.32
+1173 silly preinstall bcrypt@1.0.2 C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365
+1174 info lifecycle bcrypt@1.0.2~preinstall: bcrypt@1.0.2
+1175 silly lifecycle deep-extend@0.4.1~preinstall: no script for preinstall, continuing
+1176 silly lifecycle ini@1.3.4~preinstall: no script for preinstall, continuing
+1177 silly lifecycle fstream-ignore@1.0.5~preinstall: no script for preinstall, continuing
+1178 silly lifecycle strip-json-comments@1.0.4~preinstall: no script for preinstall, continuing
+1179 silly lifecycle rc@1.1.6~preinstall: no script for preinstall, continuing
+1180 silly lifecycle ms@0.7.1~preinstall: no script for preinstall, continuing
+1181 silly lifecycle debug@2.2.0~preinstall: no script for preinstall, continuing
+1182 silly lifecycle once@1.3.3~preinstall: no script for preinstall, continuing
+1183 silly lifecycle readable-stream@2.1.5~preinstall: no script for preinstall, continuing
+1184 silly lifecycle uid-number@0.0.6~preinstall: no script for preinstall, continuing
+1185 silly lifecycle tar-pack@3.3.0~preinstall: no script for preinstall, continuing
+1186 silly lifecycle bindings@1.2.1~preinstall: no script for preinstall, continuing
+1187 silly lifecycle node-pre-gyp@0.6.32~preinstall: no script for preinstall, continuing
+1188 silly lifecycle bcrypt@1.0.2~preinstall: no script for preinstall, continuing
+1189 silly doReverseSerial remove 0
+1190 silly doSerial move 0
+1191 silly doSerial finalize 14
+1192 silly finalize C:\crud-meteor\node_modules\deep-extend
+1193 silly finalize C:\crud-meteor\node_modules\fstream-ignore
+1194 silly finalize C:\crud-meteor\node_modules\ini
+1195 silly finalize C:\crud-meteor\node_modules\strip-json-comments
+1196 silly finalize C:\crud-meteor\node_modules\rc
+1197 silly finalize C:\crud-meteor\node_modules\tar-pack\node_modules\ms
+1198 silly finalize C:\crud-meteor\node_modules\tar-pack\node_modules\debug
+1199 silly finalize C:\crud-meteor\node_modules\tar-pack\node_modules\once
+1200 silly finalize C:\crud-meteor\node_modules\tar-pack\node_modules\readable-stream
+1201 silly finalize C:\crud-meteor\node_modules\uid-number
+1202 silly finalize C:\crud-meteor\node_modules\tar-pack
+1203 silly finalize C:\crud-meteor\node_modules\bindings
+1204 silly finalize C:\crud-meteor\node_modules\node-pre-gyp
+1205 silly finalize C:\crud-meteor\node_modules\bcrypt
+1206 silly doSerial build 14
+1207 silly build deep-extend@0.4.1
+1208 info linkStuff deep-extend@0.4.1
+1209 silly linkStuff deep-extend@0.4.1 has C:\crud-meteor\node_modules as its parent node_modules
+1210 verbose linkBins deep-extend@0.4.1
+1211 verbose linkMans deep-extend@0.4.1
+1212 silly build fstream-ignore@1.0.5
+1213 info linkStuff fstream-ignore@1.0.5
+1214 silly linkStuff fstream-ignore@1.0.5 has C:\crud-meteor\node_modules as its parent node_modules
+1215 verbose linkBins fstream-ignore@1.0.5
+1216 verbose linkMans fstream-ignore@1.0.5
+1217 silly build ini@1.3.4
+1218 info linkStuff ini@1.3.4
+1219 silly linkStuff ini@1.3.4 has C:\crud-meteor\node_modules as its parent node_modules
+1220 verbose linkBins ini@1.3.4
+1221 verbose linkMans ini@1.3.4
+1222 silly build strip-json-comments@1.0.4
+1223 info linkStuff strip-json-comments@1.0.4
+1224 silly linkStuff strip-json-comments@1.0.4 has C:\crud-meteor\node_modules as its parent node_modules
+1225 verbose linkBins strip-json-comments@1.0.4
+1226 verbose link bins [ { 'strip-json-comments': 'cli.js' },
+1226 verbose link bins   'C:\\crud-meteor\\node_modules\\.bin',
+1226 verbose link bins   false ]
+1227 verbose linkMans strip-json-comments@1.0.4
+1228 silly build rc@1.1.6
+1229 info linkStuff rc@1.1.6
+1230 silly linkStuff rc@1.1.6 has C:\crud-meteor\node_modules as its parent node_modules
+1231 verbose linkBins rc@1.1.6
+1232 verbose link bins [ { rc: './index.js' },
+1232 verbose link bins   'C:\\crud-meteor\\node_modules\\.bin',
+1232 verbose link bins   false ]
+1233 verbose linkMans rc@1.1.6
+1234 silly build ms@0.7.1
+1235 info linkStuff ms@0.7.1
+1236 silly linkStuff ms@0.7.1 has C:\crud-meteor\node_modules\tar-pack\node_modules as its parent node_modules
+1237 verbose linkBins ms@0.7.1
+1238 verbose linkMans ms@0.7.1
+1239 silly build debug@2.2.0
+1240 info linkStuff debug@2.2.0
+1241 silly linkStuff debug@2.2.0 has C:\crud-meteor\node_modules\tar-pack\node_modules as its parent node_modules
+1242 verbose linkBins debug@2.2.0
+1243 verbose linkMans debug@2.2.0
+1244 silly build once@1.3.3
+1245 info linkStuff once@1.3.3
+1246 silly linkStuff once@1.3.3 has C:\crud-meteor\node_modules\tar-pack\node_modules as its parent node_modules
+1247 verbose linkBins once@1.3.3
+1248 verbose linkMans once@1.3.3
+1249 silly build readable-stream@2.1.5
+1250 info linkStuff readable-stream@2.1.5
+1251 silly linkStuff readable-stream@2.1.5 has C:\crud-meteor\node_modules\tar-pack\node_modules as its parent node_modules
+1252 verbose linkBins readable-stream@2.1.5
+1253 verbose linkMans readable-stream@2.1.5
+1254 silly build uid-number@0.0.6
+1255 info linkStuff uid-number@0.0.6
+1256 silly linkStuff uid-number@0.0.6 has C:\crud-meteor\node_modules as its parent node_modules
+1257 verbose linkBins uid-number@0.0.6
+1258 verbose linkMans uid-number@0.0.6
+1259 silly build tar-pack@3.3.0
+1260 info linkStuff tar-pack@3.3.0
+1261 silly linkStuff tar-pack@3.3.0 has C:\crud-meteor\node_modules as its parent node_modules
+1262 verbose linkBins tar-pack@3.3.0
+1263 verbose linkMans tar-pack@3.3.0
+1264 silly build bindings@1.2.1
+1265 info linkStuff bindings@1.2.1
+1266 silly linkStuff bindings@1.2.1 has C:\crud-meteor\node_modules as its parent node_modules
+1267 verbose linkBins bindings@1.2.1
+1268 verbose linkMans bindings@1.2.1
+1269 silly build node-pre-gyp@0.6.32
+1270 info linkStuff node-pre-gyp@0.6.32
+1271 silly linkStuff node-pre-gyp@0.6.32 has C:\crud-meteor\node_modules as its parent node_modules
+1272 verbose linkBins node-pre-gyp@0.6.32
+1273 verbose link bins [ { 'node-pre-gyp': './bin/node-pre-gyp' },
+1273 verbose link bins   'C:\\crud-meteor\\node_modules\\.bin',
+1273 verbose link bins   false ]
+1274 verbose linkMans node-pre-gyp@0.6.32
+1275 silly build bcrypt@1.0.2
+1276 info linkStuff bcrypt@1.0.2
+1277 silly linkStuff bcrypt@1.0.2 has C:\crud-meteor\node_modules as its parent node_modules
+1278 verbose linkBins bcrypt@1.0.2
+1279 verbose linkMans bcrypt@1.0.2
+1280 silly doSerial global-link 0
+1281 silly doParallel update-linked 0
+1282 silly doSerial install 14
+1283 silly install deep-extend@0.4.1 C:\crud-meteor\node_modules\.staging\deep-extend-99678056
+1284 info lifecycle deep-extend@0.4.1~install: deep-extend@0.4.1
+1285 silly lifecycle deep-extend@0.4.1~install: no script for install, continuing
+1286 silly install fstream-ignore@1.0.5 C:\crud-meteor\node_modules\.staging\fstream-ignore-fd310e72
+1287 info lifecycle fstream-ignore@1.0.5~install: fstream-ignore@1.0.5
+1288 silly lifecycle fstream-ignore@1.0.5~install: no script for install, continuing
+1289 silly install ini@1.3.4 C:\crud-meteor\node_modules\.staging\ini-606017f1
+1290 info lifecycle ini@1.3.4~install: ini@1.3.4
+1291 silly lifecycle ini@1.3.4~install: no script for install, continuing
+1292 silly install strip-json-comments@1.0.4 C:\crud-meteor\node_modules\.staging\strip-json-comments-e8c1b492
+1293 info lifecycle strip-json-comments@1.0.4~install: strip-json-comments@1.0.4
+1294 silly lifecycle strip-json-comments@1.0.4~install: no script for install, continuing
+1295 silly install rc@1.1.6 C:\crud-meteor\node_modules\.staging\rc-2f8222ef
+1296 info lifecycle rc@1.1.6~install: rc@1.1.6
+1297 silly lifecycle rc@1.1.6~install: no script for install, continuing
+1298 silly install ms@0.7.1 C:\crud-meteor\node_modules\.staging\ms-f2efb678
+1299 info lifecycle ms@0.7.1~install: ms@0.7.1
+1300 silly lifecycle ms@0.7.1~install: no script for install, continuing
+1301 silly install debug@2.2.0 C:\crud-meteor\node_modules\.staging\debug-56002050
+1302 info lifecycle debug@2.2.0~install: debug@2.2.0
+1303 silly lifecycle debug@2.2.0~install: no script for install, continuing
+1304 silly install once@1.3.3 C:\crud-meteor\node_modules\.staging\once-33326b59
+1305 info lifecycle once@1.3.3~install: once@1.3.3
+1306 silly lifecycle once@1.3.3~install: no script for install, continuing
+1307 silly install readable-stream@2.1.5 C:\crud-meteor\node_modules\.staging\readable-stream-78553e04
+1308 info lifecycle readable-stream@2.1.5~install: readable-stream@2.1.5
+1309 silly lifecycle readable-stream@2.1.5~install: no script for install, continuing
+1310 silly install uid-number@0.0.6 C:\crud-meteor\node_modules\.staging\uid-number-4cd8abc7
+1311 info lifecycle uid-number@0.0.6~install: uid-number@0.0.6
+1312 silly lifecycle uid-number@0.0.6~install: no script for install, continuing
+1313 silly install tar-pack@3.3.0 C:\crud-meteor\node_modules\.staging\tar-pack-b973f4e4
+1314 info lifecycle tar-pack@3.3.0~install: tar-pack@3.3.0
+1315 silly lifecycle tar-pack@3.3.0~install: no script for install, continuing
+1316 silly install bindings@1.2.1 C:\crud-meteor\node_modules\.staging\bindings-fe0f0eb4
+1317 info lifecycle bindings@1.2.1~install: bindings@1.2.1
+1318 silly lifecycle bindings@1.2.1~install: no script for install, continuing
+1319 silly install node-pre-gyp@0.6.32 C:\crud-meteor\node_modules\.staging\node-pre-gyp-839dfe0f
+1320 info lifecycle node-pre-gyp@0.6.32~install: node-pre-gyp@0.6.32
+1321 silly lifecycle node-pre-gyp@0.6.32~install: no script for install, continuing
+1322 silly install bcrypt@1.0.2 C:\crud-meteor\node_modules\.staging\bcrypt-7c9c4365
+1323 info lifecycle bcrypt@1.0.2~install: bcrypt@1.0.2
+1324 verbose lifecycle bcrypt@1.0.2~install: unsafe-perm in lifecycle true
+1325 verbose lifecycle bcrypt@1.0.2~install: PATH: C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\bin\node-gyp-bin;C:\crud-meteor\node_modules\bcrypt\node_modules\.bin;C:\crud-meteor\node_modules\.bin;C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\bin;C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\lib\node_modules\.bin;C:\Users\Gorky Paco\Desktop\cmder\bin;C:\Users\Gorky Paco\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Gorky Paco\Desktop\cmder\bin;C:\Users\Gorky Paco\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Gorky Paco\Desktop\cmder\bin;C:\Users\Gorky Paco\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Gorky Paco\Desktop\cmder\vendor\conemu-maximus5;C:\Users\Gorky Paco\Desktop\cmder\vendor\conemu-maximus5\ConEmu;"C:\Program Files\MongoDB\Server\3.4\bin";C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32\compiler;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\UwAmp\bin\php\php-5.6.18;C:\UwAmp\bin\database\mysql-5.7.11\bin;C:\Users\Gorky Paco\AppData\Roaming\npm;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin;C:\Ruby22-x64\bin;C:\UwAmp\bin\php\php-5.6.18;C:\UwAmp\bin\database\mysql-5.7.11\bin;C:\Users\Gorky Paco\.babun;C:\Users\Gorky Paco\AppData\Local\atom\bin;C:\Users\Gorky Paco\AppData\Local\Microsoft\WindowsApps;C:\Users\Gorky Paco\AppData\Roaming\npm;C:\Users\Gorky Paco\AppData\Local\Yarn\.bin;"C:\Program Files\MongoDB\Server\3.4\bin";C:\Users\Gorky Paco\AppData\Local\.meteor\;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\Gorky Paco\Desktop\cmder\;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\Gorky Paco\Desktop\cmder\;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\Users\Gorky Paco\Desktop\cmder\
+1326 verbose lifecycle bcrypt@1.0.2~install: CWD: C:\crud-meteor\node_modules\bcrypt
+1327 silly lifecycle bcrypt@1.0.2~install: Args: [ '/d /s /c', 'node-pre-gyp install --fallback-to-build' ]
+1328 silly lifecycle bcrypt@1.0.2~install: Returned: code: 1  signal: null
+1329 info lifecycle bcrypt@1.0.2~install: Failed to exec install script
+1330 verbose unlock done using C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\.npm\_locks\staging-5ffdd6ecffc265f6.lock for C:\crud-meteor\node_modules\.staging
+1331 silly rollbackFailedOptional Starting
+1332 silly rollbackFailedOptional Finishing
+1333 silly runTopLevelLifecycles Finishing
+1334 silly install printInstalled
+1335 verbose stack Error: bcrypt@1.0.2 install: `node-pre-gyp install --fallback-to-build`
+1335 verbose stack Exit status 1
+1335 verbose stack     at EventEmitter.<anonymous> (C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\utils\lifecycle.js:255:16)
+1335 verbose stack     at emitTwo (events.js:87:13)
+1335 verbose stack     at EventEmitter.emit (events.js:172:7)
+1335 verbose stack     at ChildProcess.<anonymous> (C:\Users\Gorky Paco\AppData\Local\.meteor\packages\meteor-tool\1.4.2_3\mt-os.windows.x86_32\dev_bundle\lib\node_modules\npm\lib\utils\spawn.js:40:14)
+1335 verbose stack     at emitTwo (events.js:87:13)
+1335 verbose stack     at ChildProcess.emit (events.js:172:7)
+1335 verbose stack     at maybeClose (internal/child_process.js:854:16)
+1335 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+1336 verbose pkgid bcrypt@1.0.2
+1337 verbose cwd C:\crud-meteor
+1338 error Windows_NT 10.0.14393
+1339 error argv "C:\\Users\\Gorky Paco\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.2_3\\mt-os.windows.x86_32\\dev_bundle\\bin\\node.exe" "C:\\Users\\Gorky Paco\\AppData\\Local\\.meteor\\packages\\meteor-tool\\1.4.2_3\\mt-os.windows.x86_32\\dev_bundle\\lib\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "bcrypt"
+1340 error node v4.6.2
+1341 error npm  v3.10.9
+1342 error code ELIFECYCLE
+1343 error bcrypt@1.0.2 install: `node-pre-gyp install --fallback-to-build`
+1343 error Exit status 1
+1344 error Failed at the bcrypt@1.0.2 install script 'node-pre-gyp install --fallback-to-build'.
+1344 error Make sure you have the latest version of node.js and npm installed.
+1344 error If you do, this is most likely a problem with the bcrypt package,
+1344 error not with npm itself.
+1344 error Tell the author that this fails on your system:
+1344 error     node-pre-gyp install --fallback-to-build
+1344 error You can get information on how to open an issue for this project with:
+1344 error     npm bugs bcrypt
+1344 error Or if that isn't available, you can get their info via:
+1344 error     npm owner ls bcrypt
+1344 error There is likely additional logging output above.
+1345 verbose exit [ 1, true ]

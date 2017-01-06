@@ -1,0 +1,12 @@
+<template name="todos">
+    <div class="row">
+        {{#if currentUser }}
+        {{> addTodo}}
+        {{/if }}
+        <ul class="row">
+            {{#each todo}}
+            {{> todoItem}}
+            {{/each}}
+        </ul>
+    </div>
+</template>
